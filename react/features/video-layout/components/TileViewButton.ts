@@ -16,7 +16,7 @@ import logger from '../logger';
 /**
  * The type of the React {@code Component} props of {@link TileViewButton}.
  */
-interface IProps extends AbstractButtonProps {
+export interface IProps extends AbstractButtonProps {
 
     /**
      * Whether or not tile view layout has been enabled as the user preference.

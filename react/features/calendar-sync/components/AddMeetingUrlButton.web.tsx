@@ -14,7 +14,7 @@ import { updateCalendarEvent } from '../actions.web';
 /**
  * The type of the React {@code Component} props of {@link AddMeetingUrlButton}.
  */
-interface IProps extends WithTranslation {
+export interface IProps extends WithTranslation {
 
     /**
      * The calendar ID associated with the calendar event.

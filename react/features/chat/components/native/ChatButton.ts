@@ -12,7 +12,7 @@ import { screen } from '../../../mobile/navigation/routes';
 import { getUnreadPollCount } from '../../../polls/functions';
 import { getUnreadCount } from '../../functions';
 
-interface IProps extends AbstractButtonProps {
+export interface IProps extends AbstractButtonProps {
 
     /**
      * True if the polls feature is disabled.

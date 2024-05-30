@@ -9,7 +9,7 @@ import Tooltip from '../../base/tooltip/components/Tooltip';
 /**
  * The type of the React {@code Component} props of {@link JoinButton}.
  */
-interface IProps extends WithTranslation {
+export interface IProps extends WithTranslation {
 
     /**
      * The function called when the button is pressed.

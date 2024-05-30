@@ -21,7 +21,7 @@ import logger from '../logger';
 /**
  * The type of the React {@code Component} state of {@link BaseApp}.
  */
-interface IState {
+export interface IState {
 
     /**
      * The {@code Route} rendered by the {@code BaseApp}.

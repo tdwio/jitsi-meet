@@ -54,7 +54,7 @@ const useStyles = makeStyles()(theme => {
 /**
  * The type of the React {@code Component} props of {@link SpeakerStatsSearch}.
  */
-interface IProps {
+export interface IProps {
 
     /**
      * The function to initiate the change in the speaker stats table.

@@ -3,7 +3,7 @@ import React from 'react';
 import Icon from '../../../../base/icons/components/Icon';
 import { IconMeter } from '../../../../base/icons/svg';
 
-interface IProps {
+export interface IProps {
 
     /**
      * Own class name for the component.

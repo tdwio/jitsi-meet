@@ -10,7 +10,7 @@ import { cancelWaitForOwner, login } from '../../actions.web';
 /**
  * The type of the React {@code Component} props of {@link WaitForOwnerDialog}.
  */
-interface IProps extends WithTranslation {
+export interface IProps extends WithTranslation {
 
     /**
      * Whether to show alternative cancel button text.

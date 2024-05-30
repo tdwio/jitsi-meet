@@ -14,7 +14,7 @@ import { authenticateAndUpgradeRole, cancelLogin } from '../../actions.native';
 /**
  * The type of the React {@link Component} props of {@link LoginDialog}.
  */
-interface IProps {
+export interface IProps {
 
     /**
      * {@link JitsiConference} That needs authentication - will hold a valid
@@ -64,7 +64,7 @@ interface IProps {
 /**
  * The type of the React {@link Component} state of {@link LoginDialog}.
  */
-interface IState {
+export interface IState {
 
     /**
      * The user entered password for the conference.

@@ -16,7 +16,7 @@ import { setWhiteboardOpen } from '../../../whiteboard/actions';
 import { WHITEBOARD_ID } from '../../../whiteboard/constants';
 import { PARTICIPANT_MENU_BUTTONS as BUTTONS } from '../../constants';
 
-interface IProps {
+export interface IProps {
 
     /**
      * Class name for the context menu.

@@ -10,7 +10,7 @@ import { TOOLTIP_POSITION } from '../../../ui/constants.any';
 /**
  * The type of the React {@code Component} props of {@link BaseIndicator}.
  */
-interface IProps extends WithTranslation {
+export interface IProps extends WithTranslation {
 
     /**
      * Additional CSS class name.

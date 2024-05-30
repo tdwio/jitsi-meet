@@ -15,7 +15,7 @@ import styles, { INDICATOR_COLOR } from './styles';
 /**
  * The type of the React {@code Component} props of {@code ShareDocument}.
  */
-interface IProps extends WithTranslation {
+export interface IProps extends WithTranslation {
 
     /**
      * URL for the shared document.

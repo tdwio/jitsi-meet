@@ -18,7 +18,7 @@ import ParticipantsCounter from './ParticipantsCounter';
 /**
  * The type of the React {@code Component} props of {@link ParticipantsPaneButton}.
  */
-interface IProps extends AbstractButtonProps {
+export interface IProps extends AbstractButtonProps {
 
     /**
      * Whether or not the participants pane is open.

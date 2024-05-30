@@ -52,7 +52,7 @@ export interface IProps extends WithTranslation {
 /**
  * The state of the component.
  */
-interface IState {
+export interface IState {
 
     /**
      * Whether or not to show the warnings that the passed in value seems like

@@ -10,7 +10,7 @@ import { IRoom } from '../../types';
 import BreakoutRoomContextMenu from './BreakoutRoomContextMenu';
 import BreakoutRoomParticipantItem from './BreakoutRoomParticipantItem';
 
-interface IProps {
+export interface IProps {
 
     /**
      * Room to display.

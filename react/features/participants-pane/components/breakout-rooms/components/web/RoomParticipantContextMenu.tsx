@@ -14,7 +14,7 @@ import SendToRoomButton from '../../../../../video-menu/components/web/SendToRoo
 import { PARTICIPANT_MENU_BUTTONS as BUTTONS } from '../../../../../video-menu/constants';
 import { AVATAR_SIZE } from '../../../../constants';
 
-interface IProps {
+export interface IProps {
 
     /**
      * Room and participant jid reference.

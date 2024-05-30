@@ -10,7 +10,7 @@ import logger from '../../logger';
 /**
  * The type of the React {@code Component} props of {@link AudioTrack}.
  */
-interface IProps {
+export interface IProps {
 
     /**
      * Represents muted property of the underlying audio element.

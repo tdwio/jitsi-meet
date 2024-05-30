@@ -8,7 +8,7 @@ import { Item } from '../../types';
 import Container from './Container';
 import styles, { AVATAR_SIZE, UNDERLAY_COLOR } from './styles';
 
-interface IProps {
+export interface IProps {
 
     /**
      * If true, only the avatar gets rendered, no lines of text.

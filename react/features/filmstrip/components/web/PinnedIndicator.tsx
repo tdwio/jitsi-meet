@@ -12,7 +12,7 @@ import { getPinnedActiveParticipants, isStageFilmstripAvailable } from '../../fu
 /**
  * The type of the React {@code Component} props of {@link PinnedIndicator}.
  */
-interface IProps {
+export interface IProps {
 
     /**
      * The font-size for the icon.

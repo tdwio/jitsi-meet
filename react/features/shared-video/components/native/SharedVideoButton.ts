@@ -13,7 +13,7 @@ import { isSharingStatus } from '../../functions';
 /**
  * The type of the React {@code Component} props of {@link TileViewButton}.
  */
-interface IProps extends AbstractButtonProps {
+export interface IProps extends AbstractButtonProps {
 
     /**
      * Whether or not the button is disabled.

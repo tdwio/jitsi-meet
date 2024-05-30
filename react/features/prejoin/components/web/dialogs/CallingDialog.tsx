@@ -8,7 +8,7 @@ import Icon from '../../../../base/icons/components/Icon';
 import { IconCloseLarge } from '../../../../base/icons/svg';
 import Label from '../Label';
 
-interface IProps extends WithTranslation {
+export interface IProps extends WithTranslation {
 
     /**
      * The phone number that is being called.

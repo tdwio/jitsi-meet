@@ -2,7 +2,7 @@ import React from 'react';
 
 import MeetingParticipantItem from './MeetingParticipantItem';
 
-interface IProps {
+export interface IProps {
 
     /**
      * The translated ask unmute text for the quick action buttons.

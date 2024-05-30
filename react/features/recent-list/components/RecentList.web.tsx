@@ -13,7 +13,7 @@ import AbstractRecentList from './AbstractRecentList';
 /**
  * The type of the React {@code Component} props of {@link RecentList}.
  */
-interface IProps extends WithTranslation {
+export interface IProps extends WithTranslation {
 
     /**
      * The recent list from the Redux store.

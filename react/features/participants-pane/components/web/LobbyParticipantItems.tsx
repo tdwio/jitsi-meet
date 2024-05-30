@@ -5,7 +5,7 @@ import { IParticipant } from '../../../base/participants/types';
 
 import { LobbyParticipantItem } from './LobbyParticipantItem';
 
-interface IProps {
+export interface IProps {
 
     /**
      * Opens a drawer with actions for a knocking participant.

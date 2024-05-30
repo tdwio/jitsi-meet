@@ -9,7 +9,7 @@ import AbstractMessageContainer, { IProps as AbstractProps } from '../AbstractMe
 import ChatMessageGroup from './ChatMessageGroup';
 import styles from './styles';
 
-interface IProps extends AbstractProps {
+export interface IProps extends AbstractProps {
 
     /**
      * Function to be used to translate i18n labels.

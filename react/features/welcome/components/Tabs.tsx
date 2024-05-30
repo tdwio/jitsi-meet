@@ -3,7 +3,7 @@ import React, { useCallback, useEffect, useState } from 'react';
 /**
  * The type of the React {@code Component} props of {@link Tabs}.
  */
-interface IProps {
+export interface IProps {
 
     /**
      * Accessibility label for the tabs container.

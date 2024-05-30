@@ -32,7 +32,7 @@ import TogglePinToStageButton from './TogglePinToStageButton';
  * The type of the React {@code Component} props of
  * {@link LocalVideoMenuTriggerButton}.
  */
-interface IProps {
+export interface IProps {
 
     /**
      * The id of the local participant.

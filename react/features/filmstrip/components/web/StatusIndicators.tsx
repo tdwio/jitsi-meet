@@ -19,7 +19,7 @@ import ScreenShareIndicator from './ScreenShareIndicator';
 /**
  * The type of the React {@code Component} props of {@link StatusIndicators}.
  */
-interface IProps {
+export interface IProps {
 
     /**
      * Indicates if the audio muted indicator should be visible or not.

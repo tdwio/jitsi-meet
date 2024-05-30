@@ -7,7 +7,7 @@ import VideoMuteButton from './VideoMuteButton';
 /**
  * The type of the React {@code Component} props of {@link Toolbar}.
  */
-interface IProps {
+export interface IProps {
 
     /**
      * Additional CSS class names to add to the root of the toolbar.

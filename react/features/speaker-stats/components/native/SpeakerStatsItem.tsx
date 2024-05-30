@@ -9,7 +9,7 @@ import BaseTheme from '../../../base/ui/components/BaseTheme.native';
 import TimeElapsed from './TimeElapsed';
 import style from './styles';
 
-interface IProps {
+export interface IProps {
 
     /**
      * The name of the participant.

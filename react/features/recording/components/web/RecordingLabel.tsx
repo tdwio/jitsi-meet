@@ -13,7 +13,7 @@ import AbstractRecordingLabel, {
     _mapStateToProps
 } from '../AbstractRecordingLabel';
 
-interface IProps extends AbstractProps {
+export interface IProps extends AbstractProps {
 
     /**
      * An object containing the CSS classes.

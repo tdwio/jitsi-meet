@@ -9,7 +9,7 @@ import PreMeetingScreen from '../../../base/premeeting/components/web/PreMeeting
 import { getLocalJitsiVideoTrack } from '../../../base/tracks/functions.web';
 import { isDeviceStatusVisible } from '../../functions';
 
-interface IProps extends WithTranslation {
+export interface IProps extends WithTranslation {
 
     /**
      * Indicates the className that needs to be applied.

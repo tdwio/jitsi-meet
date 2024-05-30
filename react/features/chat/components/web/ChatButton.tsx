@@ -15,7 +15,7 @@ import ChatCounter from './ChatCounter';
 /**
  * The type of the React {@code Component} props of {@link ChatButton}.
  */
-interface IProps extends AbstractButtonProps {
+export interface IProps extends AbstractButtonProps {
 
     /**
      * Whether or not the chat feature is currently displayed.

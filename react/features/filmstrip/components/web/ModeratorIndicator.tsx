@@ -7,7 +7,7 @@ import { TOOLTIP_POSITION } from '../../../base/ui/constants.any';
 /**
  * The type of the React {@code Component} props of {@link ModeratorIndicator}.
  */
-interface IProps {
+export interface IProps {
 
     /**
      * From which side of the indicator the tooltip should appear from.

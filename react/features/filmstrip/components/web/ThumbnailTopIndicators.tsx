@@ -14,7 +14,7 @@ import RaisedHandIndicator from './RaisedHandIndicator';
 import StatusIndicators from './StatusIndicators';
 import VideoMenuTriggerButton from './VideoMenuTriggerButton';
 
-interface IProps {
+export interface IProps {
 
     /**
      * Whether to hide the connection indicator.

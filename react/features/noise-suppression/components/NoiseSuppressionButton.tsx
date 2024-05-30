@@ -11,7 +11,7 @@ import { setOverflowMenuVisible } from '../../toolbox/actions';
 import { toggleNoiseSuppression } from '../actions';
 import { isNoiseSuppressionEnabled } from '../functions';
 
-interface IProps extends AbstractButtonProps {
+export interface IProps extends AbstractButtonProps {
     _isNoiseSuppressionEnabled?: boolean;
 }
 

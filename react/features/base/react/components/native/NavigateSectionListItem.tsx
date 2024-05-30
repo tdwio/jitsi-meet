@@ -10,7 +10,7 @@ import AvatarListItem from './AvatarListItem';
 import Text from './Text';
 import styles from './styles';
 
-interface IProps {
+export interface IProps {
 
     /**
      * Item containing data to be rendered.

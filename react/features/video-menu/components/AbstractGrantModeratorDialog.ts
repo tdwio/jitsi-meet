@@ -7,7 +7,7 @@ import { IReduxState, IStore } from '../../app/types';
 import { grantModerator } from '../../base/participants/actions';
 import { getParticipantById } from '../../base/participants/functions';
 
-interface IProps extends WithTranslation {
+export interface IProps extends WithTranslation {
 
     /**
      * The Redux dispatch function.

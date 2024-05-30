@@ -11,7 +11,7 @@ import VideoManager from './VideoManager';
 import YoutubeVideoManager from './YoutubeVideoManager';
 import styles from './styles';
 
-interface IProps {
+export interface IProps {
 
     /**
      * The Redux dispatch function.

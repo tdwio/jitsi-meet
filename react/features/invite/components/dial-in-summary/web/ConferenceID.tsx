@@ -8,7 +8,7 @@ import { withPixelLineHeight } from '../../../../base/styles/functions.web';
 import { _formatConferenceIDPin } from '../../../_utils';
 
 
-interface IProps extends WithTranslation {
+export interface IProps extends WithTranslation {
 
     /**
      * The conference id.

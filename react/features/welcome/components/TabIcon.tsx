@@ -5,7 +5,7 @@ import { StyleType } from '../../base/styles/functions.any';
 import BaseTheme from '../../base/ui/components/BaseTheme';
 import { INACTIVE_TAB_COLOR } from '../constants';
 
-interface IProps {
+export interface IProps {
 
     /**
      * Is the tab focused?

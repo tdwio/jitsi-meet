@@ -12,7 +12,7 @@ import { HangupContextMenuItem } from './HangupContextMenuItem';
 /**
  * The type of the React {@code Component} props of {@link EndConferenceButton}.
  */
-interface IProps {
+export interface IProps {
 
     /**
      * Key to use for toolbarButtonClicked event.

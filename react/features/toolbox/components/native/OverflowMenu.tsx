@@ -38,7 +38,7 @@ import ScreenSharingButton from './ScreenSharingButton';
 /**
  * The type of the React {@code Component} props of {@link OverflowMenu}.
  */
-interface IProps {
+export interface IProps {
 
     /**
      * Custom Toolbar buttons.
@@ -81,7 +81,7 @@ interface IProps {
     dispatch: IStore['dispatch'];
 }
 
-interface IState {
+export interface IState {
 
     /**
      * True if the bottom sheet is scrolled to the top.

@@ -15,7 +15,7 @@ import styles from './slidingviewstyles';
 /**
  * The type of the React {@code Component} props of {@link SlidingView}.
  */
-interface IProps {
+export interface IProps {
 
     /**
      * The children of {@code SlidingView}.
@@ -48,7 +48,7 @@ interface IProps {
 /**
  * The type of the React {@code Component} state of {@link SlidingView}.
  */
-interface IState {
+export interface IState {
 
     /**
      * Offset to move the view out of the screen.

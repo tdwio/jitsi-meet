@@ -14,7 +14,7 @@ import { _cancelPasswordRequiredPrompt } from '../actions';
  * The type of the React {@code Component} props of
  * {@link PasswordRequiredPrompt}.
  */
-interface IProps extends WithTranslation {
+export interface IProps extends WithTranslation {
 
     /**
      * The JitsiConference which requires a password.
@@ -31,7 +31,7 @@ interface IProps extends WithTranslation {
  * The type of the React {@code Component} state of
  * {@link PasswordRequiredPrompt}.
  */
-interface IState {
+export interface IState {
 
     /**
      * The password entered by the local participant.

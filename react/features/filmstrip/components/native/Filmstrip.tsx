@@ -28,7 +28,7 @@ const NO_REMOTE_VIDEOS: any[] = [];
 /**
  * Filmstrip component's property types.
  */
-interface IProps {
+export interface IProps {
 
     /**
      * Application's aspect ratio.

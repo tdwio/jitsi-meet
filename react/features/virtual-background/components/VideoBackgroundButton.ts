@@ -12,7 +12,7 @@ import { checkBlurSupport, checkVirtualBackgroundEnabled } from '../functions';
 /**
  * The type of the React {@code Component} props of {@link VideoBackgroundButton}.
  */
-interface IProps extends AbstractButtonProps {
+export interface IProps extends AbstractButtonProps {
 
     /**
      * True if the video background is blurred or false if it is not.

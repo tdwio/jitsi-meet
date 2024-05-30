@@ -9,7 +9,7 @@ import { IPromotionRequest } from '../../../visitors/types';
 import ParticipantItem from './ParticipantItem';
 import styles from './styles';
 
-interface IProps {
+export interface IProps {
 
     /**
      * Promotion request reference.

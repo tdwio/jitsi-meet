@@ -13,7 +13,7 @@ import VideoQualityDialog from './VideoQualityDialog.web';
  * The type of the React {@code Component} props of
  * {@link VideoQualityButton}.
  */
-interface IProps extends AbstractButtonProps {
+export interface IProps extends AbstractButtonProps {
 
     /**
      * Whether or not audio only mode is currently enabled.

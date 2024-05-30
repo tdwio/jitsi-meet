@@ -5,7 +5,7 @@ import InputDialog from '../../../base/dialog/components/native/InputDialog';
 import { translate } from '../../../base/i18n/functions';
 import AbstractSharedVideoDialog, { IProps } from '../AbstractSharedVideoDialog';
 
-interface IState {
+export interface IState {
     error: boolean;
 }
 

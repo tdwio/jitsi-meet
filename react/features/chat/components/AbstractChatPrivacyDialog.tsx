@@ -6,7 +6,7 @@ import { getParticipantById } from '../../base/participants/functions';
 import { IParticipant } from '../../base/participants/types';
 import { sendMessage, setPrivateMessageRecipient } from '../actions';
 
-interface IProps extends WithTranslation {
+export interface IProps extends WithTranslation {
 
     /**
      * Prop to be invoked on sending the message.

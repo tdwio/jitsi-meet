@@ -11,7 +11,7 @@ import AbstractHighlightButton, {
 } from '../AbstractHighlightButton';
 import styles from '../styles.native';
 
-interface IProps extends AbstractProps {
+export interface IProps extends AbstractProps {
 
     _disabled: boolean;
 

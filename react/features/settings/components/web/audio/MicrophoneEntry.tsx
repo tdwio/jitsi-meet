@@ -11,7 +11,7 @@ import Meter from './Meter';
 
 const JitsiTrackEvents = JitsiMeetJS.events.track;
 
-interface IProps {
+export interface IProps {
 
     /**
      * The text for this component.

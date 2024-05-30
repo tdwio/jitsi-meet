@@ -21,7 +21,7 @@ import styles from './styles';
  */
 const AVATAR_SIZE = 24;
 
-interface IProps {
+export interface IProps {
 
     /**
      * True if the menu is currently open, false otherwise.

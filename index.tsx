@@ -13,7 +13,7 @@ import React, {
 } from 'react';
 import { View, ViewStyle } from 'react-native';
 
-import type { IRoomsInfo } from '../react/features/breakout-rooms/types';
+import type { IRoomsInfo } from './react/features/breakout-rooms/types';
 
 import { appNavigate } from './react/features/app/actions.native';
 import { App } from './react/features/app/components/App.native';
@@ -64,7 +64,7 @@ export interface JitsiRefProps {
  */
 export const JitsiMeeting = forwardRef<JitsiRefProps, IAppProps>((props, ref) => {
     const [ appProps, setAppProps ] = useState({});
-    const app = useRef(null);
+    const app = useRef<App | null>(null);
     const {
         config,
         eventListeners,
@@ -79,22 +79,22 @@ export const JitsiMeeting = forwardRef<JitsiRefProps, IAppProps>((props, ref) =>
     // eslint-disable-next-line arrow-body-style
     useImperativeHandle(ref, () => ({
         close: () => {
-            const dispatch = app.current.state.store.dispatch;
+            const dispatch = app.current!.state.store!.dispatch;
 
             dispatch(appNavigate(undefined));
         },
         setAudioMuted: muted => {
-            const dispatch = app.current.state.store.dispatch;
+            const dispatch = app.current!.state.store!.dispatch;
 
             dispatch(setAudioMuted(muted));
         },
         setVideoMuted: muted => {
-            const dispatch = app.current.state.store.dispatch;
+            const dispatch = app.current!.state.store!.dispatch;
 
             dispatch(setVideoMuted(muted));
         },
         getRoomsInfo: () => {
-            const state = app.current.state.store.getState();
+            const state = app.current!.state.store!.getState();
 
             return getRoomsInfo(state);
         }

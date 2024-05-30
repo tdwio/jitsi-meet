@@ -9,7 +9,7 @@ import Dialog from '../../base/ui/components/web/Dialog';
 import { participantVerified } from '../actions';
 import { ISas } from '../reducer';
 
-interface IProps {
+export interface IProps {
     decimal: string;
     dispatch: IStore['dispatch'];
     emoji: string;

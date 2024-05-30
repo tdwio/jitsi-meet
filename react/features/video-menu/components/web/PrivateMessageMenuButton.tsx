@@ -15,7 +15,7 @@ import { isButtonEnabled } from '../../../toolbox/functions.web';
 import { NOTIFY_CLICK_MODE } from '../../../toolbox/types';
 import { IButtonProps } from '../../types';
 
-interface IProps extends IButtonProps, WithTranslation {
+export interface IProps extends IButtonProps, WithTranslation {
 
     /**
      * True if the private chat functionality is disabled, hence the button is not visible.

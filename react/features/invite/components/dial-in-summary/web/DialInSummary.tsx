@@ -14,7 +14,7 @@ import NumbersList from './NumbersList';
 /**
  * The type of the React {@code Component} props of {@link DialInSummary}.
  */
-interface IProps extends WithTranslation {
+export interface IProps extends WithTranslation {
 
     /**
      * Additional CSS classnames to append to the root of the component.

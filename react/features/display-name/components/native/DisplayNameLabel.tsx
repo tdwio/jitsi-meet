@@ -11,7 +11,7 @@ import {
 
 import styles from './styles';
 
-interface IProps {
+export interface IProps {
 
     /**
      * The name of the participant to render.

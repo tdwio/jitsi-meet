@@ -8,7 +8,7 @@ import { IconCloseCircle } from '../../../icons/svg';
 import { withPixelLineHeight } from '../../../styles/functions.web';
 import { IInputProps } from '../types';
 
-interface IProps extends IInputProps {
+export interface IProps extends IInputProps {
     accessibilityLabel?: string;
     autoComplete?: string;
     autoFocus?: boolean;

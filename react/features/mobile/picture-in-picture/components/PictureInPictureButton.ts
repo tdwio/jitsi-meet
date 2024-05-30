@@ -10,7 +10,7 @@ import AbstractButton, { IProps as AbstractButtonProps } from '../../../base/too
 import { isLocalVideoTrackDesktop } from '../../../base/tracks/functions.native';
 import { enterPictureInPicture } from '../actions';
 
-interface IProps extends AbstractButtonProps {
+export interface IProps extends AbstractButtonProps {
 
     /**
      * Whether Picture-in-Picture is enabled or not.

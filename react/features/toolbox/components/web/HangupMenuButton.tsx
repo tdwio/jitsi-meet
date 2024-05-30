@@ -11,7 +11,7 @@ import HangupToggleButton from './HangupToggleButton';
 /**
  * The type of the React {@code Component} props of {@link HangupMenuButton}.
  */
-interface IProps extends WithTranslation {
+export interface IProps extends WithTranslation {
 
     /**
      * ID of the menu that is controlled by this button.

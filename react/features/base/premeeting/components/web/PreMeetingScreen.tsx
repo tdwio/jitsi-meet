@@ -17,7 +17,7 @@ import Preview from './Preview';
 import RecordingWarning from './RecordingWarning';
 import UnsafeRoomWarning from './UnsafeRoomWarning';
 
-interface IProps {
+export interface IProps {
 
     /**
      * The list of toolbar buttons to render.

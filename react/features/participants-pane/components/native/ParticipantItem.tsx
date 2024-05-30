@@ -16,7 +16,7 @@ import { AudioStateIcons, MEDIA_STATE, type MediaState, VideoStateIcons } from '
 import { RaisedHandIndicator } from './RaisedHandIndicator';
 import styles from './styles';
 
-interface IProps {
+export interface IProps {
 
     /**
      * Media state for audio.

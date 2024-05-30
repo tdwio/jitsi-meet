@@ -9,7 +9,7 @@ import { ITrack } from '../../../base/tracks/types';
 /**
  * The type of the React {@code Component} props of {@link AudioTracksContainer}.
  */
-interface IProps {
+export interface IProps {
 
     /**
      * All media tracks stored in redux.

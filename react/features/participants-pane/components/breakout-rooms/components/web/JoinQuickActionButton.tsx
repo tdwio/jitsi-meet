@@ -8,7 +8,7 @@ import { sendAnalytics } from '../../../../../analytics/functions';
 import Button from '../../../../../base/ui/components/web/Button';
 import { moveToRoom } from '../../../../../breakout-rooms/actions';
 
-interface IProps {
+export interface IProps {
 
     /**
      * The room to join.

@@ -51,7 +51,7 @@ const CONNECTION_QUALITY = [
     }
 ];
 
-interface IProps extends WithTranslation {
+export interface IProps extends WithTranslation {
 
     /**
      * Whether this participant's connection is inactive.

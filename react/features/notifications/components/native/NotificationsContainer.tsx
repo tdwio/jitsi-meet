@@ -13,7 +13,7 @@ import Notification from './Notification';
 import styles from './styles';
 
 
-interface IProps extends WithTranslation {
+export interface IProps extends WithTranslation {
 
     /**
      * The notifications to be displayed, with the first index being the

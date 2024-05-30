@@ -10,7 +10,7 @@ import {
     THUMB_COLOR
 } from './switchStyles';
 
-interface IProps extends ISwitchProps {
+export interface IProps extends ISwitchProps {
 
     /**
      * Custom styles for the switch.

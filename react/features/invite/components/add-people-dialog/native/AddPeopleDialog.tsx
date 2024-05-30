@@ -41,7 +41,7 @@ import AbstractAddPeopleDialog, {
 
 import styles, { AVATAR_SIZE } from './styles';
 
-interface IProps extends AbstractProps, WithTranslation {
+export interface IProps extends AbstractProps, WithTranslation {
 
     /**
      * True if the invite dialog should be open, false otherwise.
@@ -59,7 +59,7 @@ interface IProps extends AbstractProps, WithTranslation {
     theme: Object;
 }
 
-interface IState extends AbstractState {
+export interface IState extends AbstractState {
 
     /**
      * Boolean to show if an extra padding needs to be added to the bottom bar.

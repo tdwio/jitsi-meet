@@ -57,7 +57,7 @@ const FULL_SCREEN_EVENTS = [
 /**
  * The type of the React {@code Component} props of {@link Conference}.
  */
-interface IProps extends AbstractProps, WithTranslation {
+export interface IProps extends AbstractProps, WithTranslation {
 
     /**
      * The alpha(opacity) of the background.

@@ -15,7 +15,7 @@ import { getDialInfoPageURLForURIString } from '../../../functions';
 import DialInSummaryErrorDialog from './DialInSummaryErrorDialog';
 import styles, { INDICATOR_COLOR } from './styles';
 
-interface IProps extends WithTranslation {
+export interface IProps extends WithTranslation {
 
     dispatch: IStore['dispatch'];
 

@@ -24,7 +24,7 @@ import styles from './styles';
 /**
  * The type of the React {@code Component} props of {@link VolumeSlider}.
  */
-interface IProps {
+export interface IProps {
 
     /**
      * Whether the participant enters the conference silent.
@@ -55,7 +55,7 @@ interface IProps {
 /**
  * The type of the React {@code Component} state of {@link VolumeSlider}.
  */
-interface IState {
+export interface IState {
 
     /**
      * The volume of the participant's audio element. The value will

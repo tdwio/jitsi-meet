@@ -9,7 +9,7 @@ import AbstractButton, { IProps as AbstractButtonProps } from '../../../base/too
 import styles from './styles';
 
 
-interface IProps extends AbstractButtonProps {
+export interface IProps extends AbstractButtonProps {
     icon: any;
     id?: string;
     text: string;

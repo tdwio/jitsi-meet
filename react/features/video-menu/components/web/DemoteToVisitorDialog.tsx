@@ -6,7 +6,7 @@ import { DialogProps } from '../../../base/dialog/constants';
 import Dialog from '../../../base/ui/components/web/Dialog';
 import { demoteRequest } from '../../../visitors/actions';
 
-interface IProps extends DialogProps {
+export interface IProps extends DialogProps {
 
     /**
      * The ID of the remote participant to be demoted.

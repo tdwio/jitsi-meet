@@ -15,7 +15,7 @@ import SmileysPanel from './SmileysPanel';
 /**
  * The type of the React {@code Component} props of {@link ChatInput}.
  */
-interface IProps extends WithTranslation {
+export interface IProps extends WithTranslation {
 
     /**
      * Whether chat emoticons are disabled.
@@ -41,7 +41,7 @@ interface IProps extends WithTranslation {
 /**
  * The type of the React {@code Component} state of {@link ChatInput}.
  */
-interface IState {
+export interface IState {
 
     /**
      * User provided nickname when the input text is provided in the view.

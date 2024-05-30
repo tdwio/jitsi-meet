@@ -15,7 +15,7 @@ import { screen } from '../../../mobile/navigation/routes';
 /**
  * The type of the React {@code Component} props of {@link AudioOnlyButton}.
  */
-interface IProps extends AbstractButtonProps {
+export interface IProps extends AbstractButtonProps {
 
     /**
      * Whether the current conference is in audio only mode or not.

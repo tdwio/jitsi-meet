@@ -8,7 +8,7 @@ import { MultiSelectItem } from '../types';
 import ClickableIcon from './ClickableIcon';
 import Input from './Input';
 
-interface IProps {
+export interface IProps {
     autoFocus?: boolean;
     disabled?: boolean;
     error?: boolean;

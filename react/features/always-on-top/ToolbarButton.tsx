@@ -2,7 +2,7 @@ import React, { useCallback } from 'react';
 
 import Icon from '../base/icons/components/Icon';
 
-interface IProps {
+export interface IProps {
 
     /**
      * Accessibility label for button.

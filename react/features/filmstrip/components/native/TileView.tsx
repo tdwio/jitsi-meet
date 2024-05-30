@@ -21,7 +21,7 @@ import styles from './styles';
 /**
  * The type of the React {@link Component} props of {@link TileView}.
  */
-interface IProps {
+export interface IProps {
 
     /**
      * Application's aspect ratio.

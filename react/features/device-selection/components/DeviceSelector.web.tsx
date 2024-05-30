@@ -8,7 +8,7 @@ import Select from '../../base/ui/components/web/Select';
 /**
  * The type of the React {@code Component} props of {@link DeviceSelector}.
  */
-interface IProps {
+export interface IProps {
 
     /**
      * MediaDeviceInfos used for display in the select element.

@@ -11,7 +11,7 @@ import { PREJOIN_DEFAULT_CONTENT_WIDTH } from '../../../ui/components/variables'
 import { CONNECTION_TYPE } from '../../constants';
 import { getConnectionData } from '../../functions';
 
-interface IProps extends WithTranslation {
+export interface IProps extends WithTranslation {
 
     /**
      * List of strings with details about the connection.

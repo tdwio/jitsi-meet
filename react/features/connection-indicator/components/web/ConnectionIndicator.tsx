@@ -73,7 +73,7 @@ const QUALITY_TO_WIDTH: Array<{
 /**
  * The type of the React {@code Component} props of {@link ConnectionIndicator}.
  */
-interface IProps extends AbstractProps, WithTranslation {
+export interface IProps extends AbstractProps, WithTranslation {
 
     /**
      * Disable/enable inactive indicator.
@@ -139,7 +139,7 @@ interface IProps extends AbstractProps, WithTranslation {
     statsPopoverPosition: string;
 }
 
-interface IState extends AbstractState {
+export interface IState extends AbstractState {
 
     /**
      * Whether popover is visible or not.

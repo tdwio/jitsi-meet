@@ -6,7 +6,7 @@ import Text from './Text';
 /**
  * The type of the React {@code Component} props of {@link Link}.
  */
-interface IProps {
+export interface IProps {
 
     /**
      * The children to be displayed within this Link.

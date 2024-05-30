@@ -8,7 +8,7 @@ import { addToOffset, setTimelinePanning } from '../../actions.any';
 import { SCROLL_RATE, TIMELINE_COLORS } from '../../constants';
 import { getFaceLandmarksEnd, getFaceLandmarksStart, getTimelineBoundaries } from '../../functions';
 
-interface IProps {
+export interface IProps {
     faceLandmarks?: FaceLandmarks[];
 }
 

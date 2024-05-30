@@ -14,7 +14,7 @@ import { isLocalVideoTrackDesktop } from '../../../base/tracks/functions.native'
 /**
  * The type of the React {@code Component} props of {@link ScreenSharingIosButton}.
  */
-interface IProps extends AbstractButtonProps {
+export interface IProps extends AbstractButtonProps {
 
     /**
      * True if the button needs to be disabled.

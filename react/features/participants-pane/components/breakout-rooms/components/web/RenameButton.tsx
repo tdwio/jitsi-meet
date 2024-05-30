@@ -18,7 +18,7 @@ const useStyles = makeStyles()(_theme => {
     };
 });
 
-interface IProps {
+export interface IProps {
     breakoutRoomJid: string;
     name?: string;
 }

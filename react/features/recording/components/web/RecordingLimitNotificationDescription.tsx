@@ -8,7 +8,7 @@ import { translate, translateToHTML } from '../../../base/i18n/functions';
 /**
  * The type of the React {@code Component} props of {@link RecordingLimitNotificationDescription}.
  */
-interface IProps extends WithTranslation {
+export interface IProps extends WithTranslation {
 
     /**
      * The name of the app with unlimited recordings.

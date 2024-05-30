@@ -4,7 +4,7 @@ import { makeStyles } from 'tss-react/mui';
 import { isMobileBrowser } from '../../../environment/utils';
 import { ISwitchProps } from '../types';
 
-interface IProps extends ISwitchProps {
+export interface IProps extends ISwitchProps {
 
     className?: string;
 

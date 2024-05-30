@@ -3,7 +3,7 @@ import React from 'react';
 import AbstractButton, { IProps as AbstractButtonProps } from '../../../base/toolbox/components/AbstractButton';
 
 
-interface IProps extends AbstractButtonProps {
+export interface IProps extends AbstractButtonProps {
     backgroundColor?: string;
     icon: string;
     id?: string;

@@ -10,7 +10,7 @@ import { _cancelPasswordRequiredPrompt } from '../actions';
 /**
  * {@code PasswordRequiredPrompt}'s React {@code Component} prop types.
  */
-interface IProps {
+export interface IProps {
 
     /**
      * The previously entered password, if any.
@@ -35,7 +35,7 @@ interface IProps {
     dispatch: IStore['dispatch'];
 }
 
-interface IState {
+export interface IState {
 
     /**
      * The previously entered password, if any.

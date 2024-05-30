@@ -10,7 +10,7 @@ import { getCurrentLayout } from '../../../video-layout/functions.web';
 import ThumbnailBottomIndicators from './ThumbnailBottomIndicators';
 import ThumbnailTopIndicators from './ThumbnailTopIndicators';
 
-interface IProps {
+export interface IProps {
 
     /**
      * An object containing the CSS classes.

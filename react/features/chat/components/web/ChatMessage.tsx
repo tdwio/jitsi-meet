@@ -12,7 +12,7 @@ import { IChatMessageProps } from '../../types';
 
 import PrivateMessageButton from './PrivateMessageButton';
 
-interface IProps extends IChatMessageProps {
+export interface IProps extends IChatMessageProps {
 
     type: string;
 }

@@ -26,7 +26,7 @@ import styles from './styles';
 /**
  * Props type of the component.
  */
-interface IProps extends WithTranslation {
+export interface IProps extends WithTranslation {
 
     /**
      * Control for invite other button.

@@ -17,7 +17,7 @@ import { isVideoSettingsButtonDisabled } from '../../functions.web';
 import VideoMuteButton from './VideoMuteButton';
 
 
-interface IProps extends WithTranslation {
+export interface IProps extends WithTranslation {
 
     /**
      * The button's key.

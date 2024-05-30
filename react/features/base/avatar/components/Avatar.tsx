@@ -95,7 +95,7 @@ export interface IProps {
     useCORS?: boolean;
 }
 
-interface IState {
+export interface IState {
     avatarFailed: boolean;
     isUsingCORS: boolean;
 }

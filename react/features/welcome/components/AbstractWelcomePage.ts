@@ -59,7 +59,7 @@ export interface IProps extends WithTranslation {
     dispatch: IStore['dispatch'];
 }
 
-interface IState {
+export interface IState {
     _fieldFocused?: boolean;
     animateTimeoutId?: number;
     generateRoomNames?: string;

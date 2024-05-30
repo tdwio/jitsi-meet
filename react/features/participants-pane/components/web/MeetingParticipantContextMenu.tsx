@@ -11,7 +11,7 @@ import { IParticipant } from '../../../base/participants/types';
 import FakeParticipantContextMenu from '../../../video-menu/components/web/FakeParticipantContextMenu';
 import ParticipantContextMenu from '../../../video-menu/components/web/ParticipantContextMenu';
 
-interface IProps {
+export interface IProps {
 
     /**
      * Shared video local participant owner.

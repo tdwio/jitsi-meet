@@ -47,7 +47,7 @@ interface IReactionStyles {
 /**
  * The type of the React {@code Component} props of {@link ReactionButton}.
  */
-interface IProps extends WithTranslation {
+export interface IProps extends WithTranslation {
 
     /**
      * Component children.

@@ -6,7 +6,7 @@ import participantsPaneTheme from '../../../components/themes/participantsPaneTh
 import { isMobileBrowser } from '../../../environment/utils';
 import { withPixelLineHeight } from '../../../styles/functions.web';
 
-interface IProps {
+export interface IProps {
 
     /**
      * List item actions.

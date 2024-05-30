@@ -17,7 +17,7 @@ type DownloadUpload = {
  * The type of the React {@code Component} props of
  * {@link ConnectionStatsTable}.
  */
-interface IProps {
+export interface IProps {
 
     /**
      * The audio SSRC of this client.

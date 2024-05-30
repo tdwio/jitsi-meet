@@ -17,7 +17,7 @@ import ReactionMenuDialog from './ReactionMenuDialog';
 /**
  * The type of the React {@code Component} props of {@link ReactionsMenuButton}.
  */
-interface IProps extends AbstractButtonProps {
+export interface IProps extends AbstractButtonProps {
 
     /**
      * Whether the participant raised their hand or not.

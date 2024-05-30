@@ -18,7 +18,7 @@ interface IMeeting {
     url: string;
 }
 
-interface IProps extends WithTranslation {
+export interface IProps extends WithTranslation {
 
     /**
      * Indicates if the list is disabled or not.

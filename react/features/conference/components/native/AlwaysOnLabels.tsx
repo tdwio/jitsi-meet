@@ -19,7 +19,7 @@ import {
     LabelHitSlop
 } from './constants';
 
-interface IProps {
+export interface IProps {
 
     /**
      * Creates a function to be invoked when the onPress of the touchables are

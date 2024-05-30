@@ -7,7 +7,7 @@ import { formatURLText } from '../../functions';
 
 import Link from './Link';
 
-interface IProps {
+export interface IProps {
 
     /**
      * The children of the component.

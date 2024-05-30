@@ -16,7 +16,7 @@ import { useLobbyActions } from '../../hooks';
 
 import ParticipantItem from './ParticipantItem';
 
-interface IProps {
+export interface IProps {
 
     /**
      * Callback used to open a drawer with admit/reject actions.

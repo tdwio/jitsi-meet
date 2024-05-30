@@ -15,7 +15,7 @@ const CENTER_DOT_INDEX = Math.floor(AUDIO_LEVEL_DOTS / 2);
 /**
  * The type of the React {@code Component} props of {@link AudioLevelIndicator}.
  */
-interface IProps {
+export interface IProps {
 
     /**
      * The current audio level to display. The value should be a number between

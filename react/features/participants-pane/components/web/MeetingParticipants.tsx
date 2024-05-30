@@ -49,7 +49,7 @@ const useStyles = makeStyles()(theme => {
     };
 });
 
-interface IProps {
+export interface IProps {
     currentRoom?: {
         jid: string;
         name: string;

@@ -7,7 +7,7 @@ import AbstractButton, { IProps as AbstractButtonProps } from '../../../base/too
 import { toggleSharedVideo } from '../../actions.any';
 import { isSharingStatus } from '../../functions';
 
-interface IProps extends AbstractButtonProps {
+export interface IProps extends AbstractButtonProps {
 
     /**
      * Whether or not the button is disabled.

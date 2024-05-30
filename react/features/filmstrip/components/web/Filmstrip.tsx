@@ -52,7 +52,7 @@ import { styles } from './styles';
 /**
  * The type of the React {@code Component} props of {@link Filmstrip}.
  */
-interface IProps extends WithTranslation {
+export interface IProps extends WithTranslation {
 
     /**
      * Additional CSS class names top add to the root.
@@ -225,7 +225,7 @@ interface IProps extends WithTranslation {
     filmstripType: string;
 }
 
-interface IState {
+export interface IState {
 
     /**
      * Initial top panel height on drag handle mouse down.

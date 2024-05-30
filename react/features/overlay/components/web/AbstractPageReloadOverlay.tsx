@@ -54,7 +54,7 @@ export interface IProps extends WithTranslation {
  * The type of the React {@code Component} state of
  * {@link AbstractPageReloadOverlay}.
  */
-interface IState {
+export interface IState {
 
     /**
      * The translation key for the title of the overlay.

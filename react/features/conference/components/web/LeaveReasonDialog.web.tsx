@@ -19,7 +19,7 @@ const useStyles = makeStyles()(theme => {
 /**
  * The type of the React {@code Component} props of {@link LeaveReasonDialog}.
  */
-interface IProps {
+export interface IProps {
 
     /**
      * Callback invoked when {@code LeaveReasonDialog} is unmounted.

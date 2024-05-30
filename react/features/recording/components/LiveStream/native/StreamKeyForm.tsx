@@ -15,7 +15,7 @@ import { getLiveStreaming } from '../functions';
 
 import styles from './styles';
 
-interface IProps extends AbstractProps {
+export interface IProps extends AbstractProps {
 
     /**
      * Style of the dialogs feature.

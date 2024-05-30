@@ -11,7 +11,7 @@ import TestHint from './TestHint';
 /**
  * Defines the TestConnectionInfo's properties.
  */
-interface IProps {
+export interface IProps {
 
     /**
      * The JitsiConference's connection state. It's the lib-jitsi-meet's event

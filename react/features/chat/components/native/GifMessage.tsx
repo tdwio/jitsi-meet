@@ -5,7 +5,7 @@ import { GIF_PREFIX } from '../../../gifs/constants';
 
 import styles from './styles';
 
-interface IProps {
+export interface IProps {
 
     /**
      * The formatted gif message.

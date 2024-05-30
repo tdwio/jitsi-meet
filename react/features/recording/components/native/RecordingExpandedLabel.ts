@@ -7,7 +7,7 @@ import { JitsiRecordingConstants } from '../../../base/lib-jitsi-meet';
 import { isRecorderTranscriptionsRunning } from '../../../transcribing/functions';
 import { getSessionStatusToShow } from '../../functions';
 
-interface IProps extends AbstractProps {
+export interface IProps extends AbstractProps {
 
     /**
      * Whether this meeting is being transcribed.

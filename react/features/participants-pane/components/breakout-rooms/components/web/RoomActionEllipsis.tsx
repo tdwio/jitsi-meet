@@ -4,7 +4,7 @@ import { useTranslation } from 'react-i18next';
 import { IconDotsHorizontal } from '../../../../../base/icons/svg';
 import Button from '../../../../../base/ui/components/web/Button';
 
-interface IProps {
+export interface IProps {
 
     /**
      * Click handler function.

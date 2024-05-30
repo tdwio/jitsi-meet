@@ -26,7 +26,7 @@ import BreakoutRoomNamePrompt from './BreakoutRoomNamePrompt';
  */
 const ALL_ACTIONS = [ ACTIONS.JOIN, ACTIONS.REMOVE, ACTIONS.RENAME ];
 
-interface IProps {
+export interface IProps {
 
     /**
      * The actions that will be displayed.

@@ -26,7 +26,7 @@ import styles from './styles';
 /**
  * The type of the React {@link Component} props of {@link ParticipantView}.
  */
-interface IProps {
+export interface IProps {
 
     /**
      * Whether the connection is inactive or not.

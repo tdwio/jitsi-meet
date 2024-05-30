@@ -18,7 +18,7 @@ const DEFAULT_STATE = {
     notifications: []
 };
 
-interface INotification {
+export interface INotification {
     component: Object;
     props: {
         appearance?: string;

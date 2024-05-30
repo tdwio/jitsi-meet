@@ -7,7 +7,7 @@ import ColorSchemeRegistry from '../../../base/color-scheme/ColorSchemeRegistry'
 import { removeReaction } from '../../actions.any';
 import { IReactionEmojiProps, REACTIONS } from '../../constants';
 
-interface IProps extends IReactionEmojiProps {
+export interface IProps extends IReactionEmojiProps {
 
     /**
      * Index of reaction on the queue.

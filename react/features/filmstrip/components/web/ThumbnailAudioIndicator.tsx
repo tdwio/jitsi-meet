@@ -6,7 +6,7 @@ import { ITrack } from '../../../base/tracks/types';
 
 const JitsiTrackEvents = JitsiMeetJS.events.track;
 
-interface IProps {
+export interface IProps {
 
     /**
      * The audio track related to the participant.

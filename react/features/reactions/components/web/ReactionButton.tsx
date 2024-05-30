@@ -6,7 +6,7 @@ import { TOOLTIP_POSITION } from '../../../base/ui/constants.any';
 /**
  * The type of the React {@code Component} props of {@link ReactionButton}.
  */
-interface IProps {
+export interface IProps {
 
     /**
      * A succinct description of what the button does. Used by accessibility
@@ -64,7 +64,7 @@ interface IProps {
 /**
  * The type of the React {@code Component} state of {@link ReactionButton}.
  */
-interface IState {
+export interface IState {
 
     /**
      * Used to determine zoom level on reaction burst.

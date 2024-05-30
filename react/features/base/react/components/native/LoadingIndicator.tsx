@@ -3,7 +3,7 @@ import { ActivityIndicator } from 'react-native';
 
 import { ColorPalette } from '../../../styles/components/styles/ColorPalette';
 
-interface IProps {
+export interface IProps {
 
     /**
      * The color of the spinner.

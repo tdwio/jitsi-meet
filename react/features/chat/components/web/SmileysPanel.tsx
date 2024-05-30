@@ -7,7 +7,7 @@ import { smileys } from '../../smileys';
 /**
  * The type of the React {@code Component} props of {@link SmileysPanel}.
  */
-interface IProps {
+export interface IProps {
 
     /**
      * Callback to invoke when a smiley is selected. The smiley will be passed

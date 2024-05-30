@@ -6,7 +6,7 @@ import logger from '../../logger';
 /**
  * The type of the React {@code Component} props of {@link Video}.
  */
-interface IProps {
+export interface IProps {
 
     /**
      * Used to determine the value of the autoplay attribute of the underlying

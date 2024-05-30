@@ -56,7 +56,7 @@ import VirtualBackgroundTab from './VirtualBackgroundTab';
  * The type of the React {@code Component} props of
  * {@link ConnectedSettingsDialog}.
  */
-interface IProps {
+export interface IProps {
 
     /**
      * Information about the tabs to be rendered.

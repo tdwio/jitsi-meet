@@ -26,7 +26,7 @@ import ScreenSharePlaceholder from './ScreenSharePlaceholder.web';
 // Hack to detect Spot.
 const SPOT_DISPLAY_NAME = 'Meeting Room';
 
-interface IProps {
+export interface IProps {
 
     /**
      * The alpha(opacity) of the background.

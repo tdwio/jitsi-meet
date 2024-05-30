@@ -1,3 +1,8 @@
+export type DetectInput = {
+    image: ImageBitmap | ImageData;
+    threshold: number;
+};
+
 export type FaceBox = {
     left: number;
     right: number;
@@ -30,3 +35,4 @@ export type FaceLandmarks = {
     // the start timestamp of the expression
     timestamp: number;
 };
+

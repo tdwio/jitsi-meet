@@ -7,7 +7,7 @@ import { LOCKED_LOCALLY } from '../../../../room-lock/constants';
 /**
  * The type of the React {@code Component} props of {@link PasswordForm}.
  */
-interface IProps {
+export interface IProps {
 
     /**
      * Whether or not to show the password editing field.

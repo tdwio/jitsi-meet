@@ -14,7 +14,7 @@ import Timeline from './Timeline';
 /**
  * The type of the React {@code Component} props of {@link SpeakerStatsItem}.
  */
-interface IProps {
+export interface IProps {
 
     /**
      * The name of the participant.

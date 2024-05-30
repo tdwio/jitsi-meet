@@ -11,7 +11,7 @@ import DesktopSourcePreview from './DesktopSourcePreview';
 /**
  * The type of the React {@code Component} props of {@link DesktopPickerPane}.
  */
-interface IProps extends WithTranslation {
+export interface IProps extends WithTranslation {
 
     /**
      * The handler to be invoked when a DesktopSourcePreview is clicked.

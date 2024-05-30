@@ -16,7 +16,7 @@ import { YOUTUBE_LIVE_DASHBOARD_URL } from '../constants';
 
 import styles, { ACTIVE_OPACITY, TOUCHABLE_UNDERLAY } from './styles';
 
-interface IProps extends WithTranslation {
+export interface IProps extends WithTranslation {
 
     /**
      * Style of the dialogs feature.
@@ -35,7 +35,7 @@ interface IProps extends WithTranslation {
     onChange: Function;
 }
 
-interface IState {
+export interface IState {
 
     /**
     * The key of the currently selected stream.

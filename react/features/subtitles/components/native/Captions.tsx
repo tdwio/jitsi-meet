@@ -15,7 +15,7 @@ import styles from './styles';
 /**
  * The type of the React {@code Component} props of {@link Captions}.
  */
-interface IProps extends IAbstractCaptionsProps {
+export interface IProps extends IAbstractCaptionsProps {
     onPress: (event: GestureResponderEvent) => void;
 }
 

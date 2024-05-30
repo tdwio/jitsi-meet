@@ -2,7 +2,7 @@ import React from 'react';
 
 import { isAlwaysOnTitleBarEmpty } from '../functions.web';
 
-interface IProps {
+export interface IProps {
 
     /**
      * The children components.

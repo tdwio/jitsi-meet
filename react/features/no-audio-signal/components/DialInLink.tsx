@@ -9,7 +9,7 @@ import { getDialInfoPageURL, shouldDisplayDialIn } from '../../invite/functions'
 /**
  * The type of the React {@code Component} props of {@link DialInLink}.
  */
-interface IProps extends WithTranslation {
+export interface IProps extends WithTranslation {
 
     /**
      * The redux state representing the dial-in numbers feature.

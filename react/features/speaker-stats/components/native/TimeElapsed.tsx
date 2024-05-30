@@ -8,7 +8,7 @@ import { createLocalizedTime } from '../timeFunctions';
 /**
  * The type of the React {@code Component} props of {@link TimeElapsed}.
  */
-interface IProps extends WithTranslation {
+export interface IProps extends WithTranslation {
 
     /**
      * Style for text.

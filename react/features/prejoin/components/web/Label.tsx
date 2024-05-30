@@ -1,6 +1,6 @@
 import React from 'react';
 
-interface IProps {
+export interface IProps {
 
     /**
      * The text for the Label.

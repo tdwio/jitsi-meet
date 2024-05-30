@@ -23,7 +23,7 @@ import { IInputProps } from '../types';
 
 import styles from './inputStyles';
 
-interface IProps extends IInputProps {
+export interface IProps extends IInputProps {
     accessibilityLabel?: any;
     autoCapitalize?: 'none' | 'sentences' | 'words' | 'characters' | undefined;
     autoFocus?: boolean;

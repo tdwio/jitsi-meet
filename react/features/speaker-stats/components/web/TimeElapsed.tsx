@@ -6,7 +6,7 @@ import { createLocalizedTime } from '../timeFunctions';
 /**
  * The type of the React {@code Component} props of {@link TimeElapsed}.
  */
-interface IProps {
+export interface IProps {
 
     /**
      * The milliseconds to be converted into a human-readable format.

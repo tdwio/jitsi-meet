@@ -55,7 +55,7 @@ const useStyles = makeStyles()(theme => {
 
 let mounted: boolean;
 
-interface IProps {
+export interface IProps {
 
     /**
      * The invisible text for screen readers.

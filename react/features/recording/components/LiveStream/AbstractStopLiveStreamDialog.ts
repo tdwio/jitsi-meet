@@ -13,7 +13,7 @@ import { ISessionData } from '../../reducer';
  * The type of the React {@code Component} props of
  * {@link StopLiveStreamDialog}.
  */
-interface IProps extends WithTranslation {
+export interface IProps extends WithTranslation {
 
     /**
      * The {@code JitsiConference} for the current conference.

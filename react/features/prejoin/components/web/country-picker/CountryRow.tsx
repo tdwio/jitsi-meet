@@ -3,7 +3,7 @@ import { makeStyles } from 'tss-react/mui';
 
 import { withPixelLineHeight } from '../../../../base/styles/functions.web';
 
-interface IProps {
+export interface IProps {
 
     /**
      * Country of the entry.

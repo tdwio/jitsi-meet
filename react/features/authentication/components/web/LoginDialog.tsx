@@ -19,7 +19,7 @@ import {
 /**
  * The type of the React {@code Component} props of {@link LoginDialog}.
  */
-interface IProps extends WithTranslation {
+export interface IProps extends WithTranslation {
 
     /**
      * {@link JitsiConference} That needs authentication - will hold a valid
@@ -62,7 +62,7 @@ interface IProps extends WithTranslation {
 /**
  * The type of the React {@code Component} state of {@link LoginDialog}.
  */
-interface IState {
+export interface IState {
 
     /**
      * The user entered password for the conference.

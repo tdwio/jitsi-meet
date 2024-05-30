@@ -9,7 +9,7 @@ import { StyleType, combineStyles } from '../../base/styles/functions.native';
 
 import styles from './styles';
 
-interface IProps extends WithTranslation {
+export interface IProps extends WithTranslation {
 
     /**
      * Whether or not the conference is in audio only mode.

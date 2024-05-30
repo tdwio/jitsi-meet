@@ -12,7 +12,7 @@ import { deny, grant } from '../actions';
  * The type of the React {@code Component} props of
  * {@link RemoteControlAuthorizationDialog}.
  */
-interface IProps {
+export interface IProps {
 
     /**
      * The display name of the participant who is requesting authorization for

@@ -21,7 +21,7 @@ export const ORIENTATION = {
  * The type of the React {@code Component} props of
  * {@link LargeVideoBackgroundCanvas}.
  */
-interface IProps {
+export interface IProps {
 
     /**
      * Whether or not the layout should change to support tile view mode.

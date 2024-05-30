@@ -11,7 +11,7 @@ import { toggleE2EE } from '../actions';
 import { MAX_MODE } from '../constants';
 import { doesEveryoneSupportE2EE } from '../functions';
 
-interface IProps {
+export interface IProps {
 
     /**
      * The resource for the description, computed based on the maxMode and whether the switch is toggled or not.

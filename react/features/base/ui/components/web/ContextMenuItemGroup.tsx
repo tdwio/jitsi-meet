@@ -4,7 +4,7 @@ import { makeStyles } from 'tss-react/mui';
 import ContextMenuItem, { IProps as ItemProps } from './ContextMenuItem';
 
 
-interface IProps {
+export interface IProps {
 
     /**
      * List of actions in this group.

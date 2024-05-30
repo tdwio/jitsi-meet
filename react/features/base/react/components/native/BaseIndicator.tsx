@@ -7,7 +7,7 @@ import { StyleType } from '../../../styles/functions.any';
 import styles from './indicatorStyles';
 import { BASE_INDICATOR } from './styles';
 
-interface IProps {
+export interface IProps {
 
     /**
      * Overwritten background color when indicator is highlighted.

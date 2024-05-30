@@ -16,7 +16,7 @@ let mounted: boolean;
 /**
  * The type of the React {@code Component} props of {@link DialInNumber}.
  */
-interface IProps extends WithTranslation {
+export interface IProps extends WithTranslation {
 
     /**
      * The numeric identifier for the current conference, used after dialing a

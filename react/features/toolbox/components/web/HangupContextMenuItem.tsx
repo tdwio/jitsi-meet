@@ -7,7 +7,7 @@ import { NOTIFY_CLICK_MODE } from '../../types';
 /**
  * The type of the React {@code Component} props of {@link HangupContextMenuItem}.
  */
-interface IProps {
+export interface IProps {
 
     /**
      * Accessibility label for the button.

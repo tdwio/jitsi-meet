@@ -60,7 +60,7 @@ type Transform = {
     translateY: number;
 };
 
-interface IProps {
+export interface IProps {
 
     /**
      * The current aspect ratio of the screen.
@@ -104,7 +104,7 @@ interface IProps {
     style: Object;
 }
 
-interface IState {
+export interface IState {
 
     /**
      * The current (non-transformed) layout of the View.

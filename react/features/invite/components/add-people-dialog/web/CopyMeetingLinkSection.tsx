@@ -6,7 +6,7 @@ import CopyButton from '../../../../base/buttons/CopyButton.web';
 import { getDecodedURI } from '../../../../base/util/uri';
 
 
-interface IProps {
+export interface IProps {
 
     /**
      * The URL of the conference.

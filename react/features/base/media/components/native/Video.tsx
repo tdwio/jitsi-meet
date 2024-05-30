@@ -10,7 +10,7 @@ import styles from './styles';
 /**
  * The type of the React {@code Component} props of {@link Video}.
  */
-interface IProps {
+export interface IProps {
     mirror: boolean;
 
     onPlaying: Function;

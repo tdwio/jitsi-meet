@@ -12,7 +12,7 @@ const TEST_SOUND_PATH = 'sounds/ring.mp3';
 /**
  * The type of the React {@code Component} props of {@link SpeakerEntry}.
  */
-interface IProps {
+export interface IProps {
 
     /**
      * The text label for the entry.

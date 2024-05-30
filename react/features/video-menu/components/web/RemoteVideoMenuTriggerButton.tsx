@@ -24,7 +24,7 @@ import { REMOTE_CONTROL_MENU_STATES } from './RemoteControlButton';
  * The type of the React {@code Component} props of
  * {@link RemoteVideoMenuTriggerButton}.
  */
-interface IProps {
+export interface IProps {
 
     /**
      * Whether the remote video context menu is disabled.

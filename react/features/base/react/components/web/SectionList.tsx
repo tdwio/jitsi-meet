@@ -4,7 +4,7 @@ import { Section } from '../../types';
 
 import Container from './Container';
 
-interface IProps {
+export interface IProps {
 
     /**
      * Rendered when the list is empty. Should be a rendered element.

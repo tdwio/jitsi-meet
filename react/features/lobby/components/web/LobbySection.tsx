@@ -10,7 +10,7 @@ import Switch from '../../../base/ui/components/web/Switch';
 import { isInBreakoutRoom } from '../../../breakout-rooms/functions';
 import { toggleLobbyMode } from '../../actions';
 
-interface IProps extends WithTranslation {
+export interface IProps extends WithTranslation {
 
     /**
      * True if lobby is currently enabled in the conference.
@@ -28,7 +28,7 @@ interface IProps extends WithTranslation {
     dispatch: IStore['dispatch'];
 }
 
-interface IState {
+export interface IState {
 
     /**
      * True if the lobby switch is toggled on.

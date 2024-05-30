@@ -19,7 +19,7 @@ import Labels from './Labels';
 import styles from './styles';
 
 
-interface IProps {
+export interface IProps {
 
     /**
      * Whether displaying the current conference timer is enabled or not.

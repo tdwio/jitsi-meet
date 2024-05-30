@@ -12,7 +12,7 @@ import { NOTIFY_CLICK_MODE } from '../../../toolbox/types';
 /**
  * The type of the React {@code Component} props of {@link HideSelfViewVideoButton}.
  */
-interface IProps extends WithTranslation {
+export interface IProps extends WithTranslation {
 
     /**
      * Button text class name.

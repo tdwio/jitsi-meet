@@ -7,7 +7,7 @@ import { withPixelLineHeight } from '../../../styles/functions.web';
 import { BUTTON_TYPES } from '../../constants.web';
 import { IButtonProps } from '../types';
 
-interface IProps extends IButtonProps {
+export interface IProps extends IButtonProps {
 
     /**
      * Class name used for additional styles.

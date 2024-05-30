@@ -17,7 +17,7 @@ import { isBreakoutRoomRenameAllowed } from '../../../../functions';
 import BreakoutRoomNamePrompt from './BreakoutRoomNamePrompt';
 
 
-interface IProps {
+export interface IProps {
 
     /**
      * Room reference.

@@ -10,7 +10,7 @@ import { cancelWaitForOwner, login } from '../../actions.native';
 /**
  * The type of the React {@code Component} props of {@link WaitForOwnerDialog}.
  */
-interface IProps {
+export interface IProps {
 
     /**
      * Whether to show alternative cancel button text.

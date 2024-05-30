@@ -51,7 +51,7 @@ export interface IProps extends WithTranslation {
 /**
  * The type of the React {@code Component} state of {@link VirtualBackgroundPreview}.
  */
-interface IState {
+export interface IState {
 
     /**
      * Activate the selected device camera only.

@@ -3,7 +3,7 @@ import React from 'react';
 import LocalVideoMenuTriggerButton from '../../../video-menu/components/web/LocalVideoMenuTriggerButton';
 import RemoteVideoMenuTriggerButton from '../../../video-menu/components/web/RemoteVideoMenuTriggerButton';
 
-interface IProps {
+export interface IProps {
 
     /**
      * Hide popover callback.

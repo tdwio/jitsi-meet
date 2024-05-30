@@ -6,7 +6,7 @@ import { IReactionEmojiProps } from '../../../reactions/constants';
 /**
  * The type of the React {@code Component} props of {@link DialogContainer}.
  */
-interface IProps {
+export interface IProps {
 
     /**
      * The component to render.

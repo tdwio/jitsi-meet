@@ -9,7 +9,7 @@ import Button from '../../../../base/ui/components/web/Button';
 import { getCountryCodeFromPhone } from '../../../utils';
 import Label from '../Label';
 
-interface IProps extends WithTranslation {
+export interface IProps extends WithTranslation {
 
     /**
      * The number to call in order to join the conference.

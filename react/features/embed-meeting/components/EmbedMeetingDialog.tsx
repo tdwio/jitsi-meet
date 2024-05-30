@@ -10,7 +10,7 @@ import { translate } from '../../base/i18n/functions';
 import Dialog from '../../base/ui/components/web/Dialog';
 import Input from '../../base/ui/components/web/Input';
 
-interface IProps extends WithTranslation {
+export interface IProps extends WithTranslation {
 
     /**
      * The URL of the conference.

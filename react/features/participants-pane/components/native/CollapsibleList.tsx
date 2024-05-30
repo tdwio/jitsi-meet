@@ -5,7 +5,7 @@ import Icon from '../../../base/icons/components/Icon';
 import { IconArrowDown, IconArrowUp } from '../../../base/icons/svg';
 import styles from '../../../breakout-rooms/components/native/styles';
 
-interface IProps {
+export interface IProps {
 
     /**
      * The children to be displayed within this list.

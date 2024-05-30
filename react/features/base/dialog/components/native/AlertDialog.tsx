@@ -9,7 +9,7 @@ import { renderHTML } from '../functions.native';
 
 import AbstractDialog, { IProps as AbstractProps } from './AbstractDialog';
 
-interface IProps extends AbstractProps, WithTranslation {
+export interface IProps extends AbstractProps, WithTranslation {
 
     /**
      * Untranslated i18n key of the content to be displayed.

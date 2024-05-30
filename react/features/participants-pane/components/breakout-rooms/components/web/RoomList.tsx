@@ -24,7 +24,7 @@ import RoomActionEllipsis from './RoomActionEllipsis';
 import { RoomContextMenu } from './RoomContextMenu';
 import { RoomParticipantContextMenu } from './RoomParticipantContextMenu';
 
-interface IProps {
+export interface IProps {
 
     /**
      * Participants search string.

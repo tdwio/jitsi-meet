@@ -15,7 +15,7 @@ import ReactionButton from './ReactionButton';
 /**
  * The type of the React {@code Component} props of {@link ReactionMenu}.
  */
-interface IProps {
+export interface IProps {
 
     /**
      * Used to close the overflow menu after raise hand is clicked.

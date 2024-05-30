@@ -16,7 +16,7 @@ import { openUpdateCalendarEventDialog, refreshCalendar } from '../actions.nativ
  * The type of the React {@code Component} props of
  * {@link CalendarListContent}.
  */
-interface IProps extends WithTranslation {
+export interface IProps extends WithTranslation {
 
     /**
      * The calendar event list.

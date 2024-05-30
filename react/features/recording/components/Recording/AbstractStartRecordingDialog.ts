@@ -102,7 +102,7 @@ export interface IProps extends WithTranslation {
     navigation: any;
 }
 
-interface IState {
+export interface IState {
 
     /**
      * <tt>true</tt> if we have valid oauth token.

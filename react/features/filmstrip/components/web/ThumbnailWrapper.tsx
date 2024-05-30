@@ -15,7 +15,7 @@ import Thumbnail from './Thumbnail';
 /**
  * The type of the React {@code Component} props of {@link ThumbnailWrapper}.
  */
-interface IProps {
+export interface IProps {
 
     /**
      * Whether or not to hide the self view.

@@ -84,7 +84,7 @@ export interface IRawDevice {
 /**
  * {@code AudioRoutePickerDialog}'s React {@code Component} prop types.
  */
-interface IProps {
+export interface IProps {
 
     /**
      * Object describing available devices.
@@ -105,7 +105,7 @@ interface IProps {
 /**
  * {@code AudioRoutePickerDialog}'s React {@code Component} state types.
  */
-interface IState {
+export interface IState {
 
     /**
      * Array of available devices.

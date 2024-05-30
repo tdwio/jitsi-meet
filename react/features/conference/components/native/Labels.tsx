@@ -7,7 +7,7 @@ import InsecureRoomNameLabel from './InsecureRoomNameLabel';
 import { LABEL_ID_INSECURE_ROOM_NAME, LABEL_ID_QUALITY, LabelHitSlop } from './constants';
 import styles from './styles';
 
-interface IProps {
+export interface IProps {
 
     /**
      * Creates a function to be invoked when the onPress of the touchables are

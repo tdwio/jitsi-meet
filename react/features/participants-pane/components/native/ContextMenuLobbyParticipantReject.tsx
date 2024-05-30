@@ -14,7 +14,7 @@ import { getKnockingParticipantsById } from '../../../lobby/functions';
 
 import styles from './styles';
 
-interface IProps {
+export interface IProps {
 
     /**
      * Participant reference.

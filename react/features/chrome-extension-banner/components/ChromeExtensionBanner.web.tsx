@@ -32,7 +32,7 @@ const DONT_SHOW_AGAIN_CHECKED = 'hide_chrome_extension_banner';
 /**
  * The type of the React {@code PureComponent} props of {@link ChromeExtensionBanner}.
  */
-interface IProps extends WithTranslation {
+export interface IProps extends WithTranslation {
 
     /**
      * Contains info about installed/to be installed chrome extension(s).
@@ -62,7 +62,7 @@ interface IProps extends WithTranslation {
 /**
  * The type of the React {@link PureComponent} state of {@link ChromeExtensionBanner}.
  */
-interface IState {
+export interface IState {
 
     /**
      * Tells whether user pressed install extension or close button.

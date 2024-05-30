@@ -14,7 +14,7 @@ import { BUTTON_TYPES } from '../../../base/ui/constants.native';
 import styles from './styles';
 
 
-interface IProps extends WithTranslation {
+export interface IProps extends WithTranslation {
 
     /**
      * Application's aspect ratio.
@@ -27,7 +27,7 @@ interface IProps extends WithTranslation {
     onSend: Function;
 }
 
-interface IState {
+export interface IState {
 
     /**
      * Boolean to show if an extra padding needs to be added to the bar.

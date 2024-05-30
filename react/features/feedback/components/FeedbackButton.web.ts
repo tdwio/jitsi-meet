@@ -14,7 +14,7 @@ import { shouldSendJaaSFeedbackMetadata } from '../functions.web';
 /**
  * The type of the React {@code Component} props of {@link FeedbackButton}.
  */
-interface IProps extends AbstractButtonProps {
+export interface IProps extends AbstractButtonProps {
 
     /**
      * The {@code JitsiConference} for the current conference.

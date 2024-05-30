@@ -13,7 +13,7 @@ import KeyboardAvoider from './KeyboardAvoider';
 /**
  * The type of the React {@code Component} props of {@DisplayNameForm}.
  */
-interface IProps extends WithTranslation {
+export interface IProps extends WithTranslation {
 
     /**
      * Invoked to set the local participant display name.
@@ -29,7 +29,7 @@ interface IProps extends WithTranslation {
 /**
  * The type of the React {@code Component} state of {@DisplayNameForm}.
  */
-interface IState {
+export interface IState {
 
     /**
      * User provided display name when the input text is provided in the view.

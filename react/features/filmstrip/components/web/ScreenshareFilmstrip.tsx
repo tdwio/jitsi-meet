@@ -11,7 +11,7 @@ import { getScreenshareFilmstripParticipantId } from '../../functions.web';
 
 import Filmstrip from './Filmstrip';
 
-interface IProps {
+export interface IProps {
 
     /**
      * The number of columns in tile view.

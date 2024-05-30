@@ -35,7 +35,7 @@ import Separator from './Separator';
 /**
  * The type of the React {@code Component} props of {@link Toolbox}.
  */
-interface IProps extends WithTranslation {
+export interface IProps extends WithTranslation {
 
     /**
      * Toolbar buttons which have their click exposed through the API.

@@ -60,7 +60,7 @@ import styles from './styles';
 /**
  * The type of the React {@code Component} props of {@link Conference}.
  */
-interface IProps extends AbstractProps {
+export interface IProps extends AbstractProps {
 
     /**
      * Application's aspect ratio.

@@ -17,7 +17,7 @@ import AbstractHighlightButton, {
     _abstractMapStateToProps
 } from '../AbstractHighlightButton';
 
-interface IProps extends AbstractProps {
+export interface IProps extends AbstractProps {
     _disabled: boolean;
 
     /**
@@ -39,7 +39,7 @@ interface IProps extends AbstractProps {
 /**
  * The type of the React {@code Component} state of {@link HighlightButton}.
  */
-interface IState {
+export interface IState {
 
     /**
      * Whether the notification which prompts for starting recording is open is not.

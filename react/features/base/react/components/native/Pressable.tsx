@@ -4,7 +4,7 @@ import { GestureResponderEvent, TouchableWithoutFeedback } from 'react-native';
 /**
  * The type of the React {@link Component} props of {@link Pressable}.
  */
-interface IProps {
+export interface IProps {
     children: React.ReactNode;
 
     /**

@@ -13,7 +13,7 @@ import { hideTooltip, showTooltip } from '../actions';
 const TOOLTIP_DELAY = 300;
 const ANIMATION_DURATION = 0.2;
 
-interface IProps {
+export interface IProps {
     children: ReactElement;
     containerClassName?: string;
     content: string | ReactElement;

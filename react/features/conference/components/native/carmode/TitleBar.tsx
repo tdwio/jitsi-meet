@@ -14,7 +14,7 @@ import VideoQualityLabel from '../../../../video-quality/components/VideoQuality
 import styles from './styles';
 
 
-interface IProps {
+export interface IProps {
 
     /**
      * Name of the meeting we're currently in.

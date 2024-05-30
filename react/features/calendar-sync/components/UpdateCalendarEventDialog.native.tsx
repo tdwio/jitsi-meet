@@ -7,7 +7,7 @@ import ConfirmDialog from '../../base/dialog/components/native/ConfirmDialog';
 import { translate } from '../../base/i18n/functions';
 import { updateCalendarEvent } from '../actions';
 
-interface IProps extends WithTranslation {
+export interface IProps extends WithTranslation {
 
     /**
      * The Redux dispatch function.

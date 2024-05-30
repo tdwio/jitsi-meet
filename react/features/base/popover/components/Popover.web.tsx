@@ -12,7 +12,7 @@ import { getContextMenuStyle } from '../functions.web';
 /**
  * The type of the React {@code Component} props of {@link Popover}.
  */
-interface IProps {
+export interface IProps {
 
     /**
      * Whether the child element can be clicked on.
@@ -102,7 +102,7 @@ interface IProps {
 /**
  * The type of the React {@code Component} state of {@link Popover}.
  */
-interface IState {
+export interface IState {
 
     /**
      * The style to apply to the context menu in order to position it correctly.

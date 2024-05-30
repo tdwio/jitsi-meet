@@ -44,7 +44,7 @@ const _TEXT_INPUT_PROPS = {
 /**
  * The type of the React {@code Component} props of {@link SecurityDialog}.
  */
-interface IProps {
+export interface IProps {
 
     /**
      * The JitsiConference which requires a password.
@@ -111,7 +111,7 @@ interface IProps {
 /**
  * The type of the React {@code Component} state of {@link SecurityDialog}.
  */
-interface IState {
+export interface IState {
 
     /**
      * State of lobby mode.

@@ -23,7 +23,7 @@ import DeviceSelector from './DeviceSelector.web';
 /**
  * The type of the React {@code Component} props of {@link AudioDevicesSelection}.
  */
-interface IProps extends AbstractDialogTabProps, WithTranslation {
+export interface IProps extends AbstractDialogTabProps, WithTranslation {
 
     /**
      * All known audio and video devices split by type. This prop comes from
@@ -117,7 +117,7 @@ interface IProps extends AbstractDialogTabProps, WithTranslation {
 /**
  * The type of the React {@code Component} state of {@link AudioDevicesSelection}.
  */
-interface IState {
+export interface IState {
 
     /**
      * The JitsiTrack to use for previewing audio input.

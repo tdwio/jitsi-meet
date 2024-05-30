@@ -5,7 +5,7 @@ import Icon from '../../../icons/components/Icon';
 import { IconArrowDown } from '../../../icons/svg';
 import { withPixelLineHeight } from '../../../styles/functions.web';
 
-interface IProps {
+export interface IProps {
 
     /**
      * Icon to display in the options section.

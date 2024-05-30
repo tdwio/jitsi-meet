@@ -3,7 +3,7 @@ import ReactLinkify from 'react-linkify';
 
 import { formatURLText } from '../../functions';
 
-interface IProps {
+export interface IProps {
 
     /**
      * The children of the component.

@@ -18,7 +18,7 @@ const _RIGHT_WATERMARK_STYLE = {
 /**
  * The type of the React {@code Component} props of {@link Watermarks}.
  */
-interface IProps extends WithTranslation {
+export interface IProps extends WithTranslation {
 
     /**
      * The link used to navigate to on logo click.

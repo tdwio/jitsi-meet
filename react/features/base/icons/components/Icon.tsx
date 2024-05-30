@@ -5,7 +5,7 @@ import { StyleType, styleTypeToObject } from '../../styles/functions';
 
 import { IIconProps } from './types';
 
-interface IProps extends IIconProps {
+export interface IProps extends IIconProps {
 
     /**
      * Optional label for screen reader users.

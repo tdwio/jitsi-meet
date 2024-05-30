@@ -20,7 +20,7 @@ import CalendarListContent from './CalendarListContent.web';
 /**
  * The type of the React {@code Component} props of {@link CalendarList}.
  */
-interface IProps extends WithTranslation {
+export interface IProps extends WithTranslation {
 
     /**
      * The error object containing details about any error that has occurred

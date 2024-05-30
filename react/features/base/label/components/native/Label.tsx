@@ -16,7 +16,7 @@ const STATUS_IN_PROGRESS = 'in_progress';
  */
 const STATUS_OFF = 'off';
 
-interface IProps {
+export interface IProps {
 
     /**
      * An SVG icon to be rendered as the content of the label.

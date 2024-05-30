@@ -19,7 +19,7 @@ const GOOGLE_BRAND_IMAGE = require('../../../../images/btn_google_signin_dark_no
  * this way), hence the custom button implementation.
  */
 
-interface IProps extends WithTranslation {
+export interface IProps extends WithTranslation {
 
     /**
      * The callback to invoke when the button is clicked.

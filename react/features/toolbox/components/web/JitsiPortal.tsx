@@ -3,7 +3,7 @@ import { makeStyles } from 'tss-react/mui';
 
 import DialogPortal from './DialogPortal';
 
-interface IProps {
+export interface IProps {
 
     /**
      * The component(s) to be displayed within the drawer portal.

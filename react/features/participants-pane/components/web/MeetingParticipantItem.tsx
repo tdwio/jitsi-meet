@@ -33,7 +33,7 @@ import ParticipantActionEllipsis from './ParticipantActionEllipsis';
 import ParticipantItem from './ParticipantItem';
 import ParticipantQuickAction from './ParticipantQuickAction';
 
-interface IProps {
+export interface IProps {
 
     /**
      * Media state for audio.

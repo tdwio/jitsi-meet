@@ -23,7 +23,7 @@ import AbstractStartLiveStreamDialog, {
 import StreamKeyForm from './StreamKeyForm';
 import StreamKeyPicker from './StreamKeyPicker';
 
-interface IProps extends AbstractProps {
+export interface IProps extends AbstractProps {
 
     /**
      * The ID for the Google client application used for making stream key

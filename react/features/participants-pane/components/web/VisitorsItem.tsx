@@ -11,7 +11,7 @@ import { ACTION_TRIGGER, MEDIA_STATE } from '../../constants';
 
 import ParticipantItem from './ParticipantItem';
 
-interface IProps {
+export interface IProps {
 
     /**
      * Promotion request reference.

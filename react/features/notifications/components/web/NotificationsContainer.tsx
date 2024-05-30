@@ -9,7 +9,7 @@ import { INotificationProps } from '../../types';
 import NotificationsTransition from '../NotificationsTransition';
 
 import Notification from './Notification';
-interface IProps {
+export interface IProps {
 
     /**
      * Whether we are a SIP gateway or not.

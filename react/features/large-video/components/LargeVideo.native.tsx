@@ -14,7 +14,7 @@ import { AVATAR_SIZE } from './styles';
 /**
  * The type of the React {@link Component} props of {@link LargeVideo}.
  */
-interface IProps {
+export interface IProps {
 
     /**
      * Whether video should be disabled.
@@ -57,7 +57,7 @@ interface IProps {
 /**
  * The type of the React {@link Component} state of {@link LargeVideo}.
  */
-interface IState {
+export interface IState {
 
     /**
      * Size for the Avatar. It will be dynamically adjusted based on the

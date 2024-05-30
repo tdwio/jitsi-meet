@@ -14,7 +14,7 @@ import styles from './styles';
  * The type of the React {@code Component} props of
  * {@link ConfirmDialog}.
  */
-interface IProps extends AbstractProps, WithTranslation {
+export interface IProps extends AbstractProps, WithTranslation {
 
     /**
      * The i18n key of the text label for the cancel button.

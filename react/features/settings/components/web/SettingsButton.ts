@@ -10,7 +10,7 @@ import { openSettingsDialog } from '../../actions';
 /**
  * The type of the React {@code Component} props of {@link SettingsButton}.
  */
-interface IProps extends AbstractButtonProps {
+export interface IProps extends AbstractButtonProps {
 
     /**
      * The default tab at which the settings dialog will be opened.

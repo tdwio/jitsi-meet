@@ -10,7 +10,7 @@ import { IButtonProps } from '../../types';
 
 import DemoteToVisitorDialog from './DemoteToVisitorDialog';
 
-interface IProps extends IButtonProps {
+export interface IProps extends IButtonProps {
 
     /**
      * Button text class name.

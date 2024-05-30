@@ -14,7 +14,7 @@ import CountrySelector from './CountrySelector';
 
 const PREFIX_REG = /^(00)|\+/;
 
-interface IProps {
+export interface IProps {
 
     /**
      * The country to dial out to.

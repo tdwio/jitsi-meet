@@ -7,7 +7,7 @@ import { translate } from '../../base/i18n/functions';
  * The type of the React {@code Component} props of
  * {@link MicrosoftSignInButton}.
  */
-interface IProps extends WithTranslation {
+export interface IProps extends WithTranslation {
 
     /**
      * The callback to invoke when {@code MicrosoftSignInButton} is clicked.

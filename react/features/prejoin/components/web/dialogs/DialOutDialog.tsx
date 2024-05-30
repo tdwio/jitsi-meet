@@ -9,7 +9,7 @@ import Button from '../../../../base/ui/components/web/Button';
 import Label from '../Label';
 import CountryPicker from '../country-picker/CountryPicker';
 
-interface IProps extends WithTranslation {
+export interface IProps extends WithTranslation {
 
     /**
      * Closes a dialog.

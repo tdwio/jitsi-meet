@@ -8,7 +8,7 @@ import { getOverlayToRender } from '../../functions.web';
 /**
  * The type of the React {@link Component} props of {@code OverlayContainer}.
  */
-interface IProps {
+export interface IProps {
 
     /**
      * The React {@link Component} type of overlay to be rendered by the

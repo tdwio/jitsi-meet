@@ -156,7 +156,7 @@ export interface IDialogTab<P> {
     submit?: Function;
 }
 
-interface IProps extends IBaseProps {
+export interface IProps extends IBaseProps {
     defaultTab?: string;
     tabs: IDialogTab<any>[];
 }

@@ -7,7 +7,7 @@ import { showOverflowDrawer } from '../../../../toolbox/functions.web';
 
 import DialogTransition from './DialogTransition';
 
-interface IProps {
+export interface IProps {
 
     /**
      * The component to render.

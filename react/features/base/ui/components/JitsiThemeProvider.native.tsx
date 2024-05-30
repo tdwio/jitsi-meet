@@ -3,7 +3,7 @@ import { Provider as PaperProvider } from 'react-native-paper';
 
 import BaseTheme from './BaseTheme.native';
 
-interface IProps {
+export interface IProps {
 
     /**
     * The children of the component.

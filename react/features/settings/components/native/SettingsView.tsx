@@ -31,7 +31,7 @@ import { AVATAR_SIZE } from './constants';
 import styles from './styles';
 
 
-interface IProps {
+export interface IProps {
 
     isInWelcomePage?: boolean | undefined;
 }

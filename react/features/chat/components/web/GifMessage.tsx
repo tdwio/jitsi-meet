@@ -1,7 +1,7 @@
 import React from 'react';
 import { makeStyles } from 'tss-react/mui';
 
-interface IProps {
+export interface IProps {
 
     /**
      * URL of the GIF.

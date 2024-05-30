@@ -9,7 +9,7 @@ import { ConferenceTimerDisplay } from './index';
 /**
  * The type of the React {@code Component} props of {@link ConferenceTimer}.
  */
-interface IProps {
+export interface IProps {
 
     /**
      * Style to be applied to the rendered text.

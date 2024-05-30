@@ -9,7 +9,7 @@ import { BUTTON_TYPES } from '../../../base/ui/constants.native';
 import { navigationStyles } from './styles';
 
 
-interface IProps {
+export interface IProps {
 
     /**
      * Icon button color.

@@ -25,7 +25,7 @@ const SettingsStack = createStackNavigator();
 /**
  * The type of the React {@code Component} props of {@link SettingsNavigationContainer}.
  */
-interface IProps {
+export interface IProps {
 
     /**
      * Is the navigator part of Welcome page?

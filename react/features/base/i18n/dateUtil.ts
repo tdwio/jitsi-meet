@@ -1,7 +1,8 @@
-import moment from 'moment';
 import momentDurationFormatSetup from 'moment-duration-format';
 
 import i18next from './i18next';
+
+const moment = require('moment');
 
 // allows for moment durations to be formatted
 momentDurationFormatSetup(moment);
@@ -127,7 +128,7 @@ function _getSupportedLocale() {
                 // FIXME The flow-type definition of moment is v2.3 while our
                 // package.json states v2.19 so maybe locales on moment was
                 // introduced in between?
-                = moment.locales().find(lang => currentLocaleRegexp.exec(lang));
+                = moment.locales().find((lang: string) => currentLocaleRegexp.exec(lang));
         }
     }
 

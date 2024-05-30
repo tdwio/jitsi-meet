@@ -11,7 +11,7 @@ import { getToolboxHeight } from '../../../toolbox/functions.web';
 import VideoManager from './VideoManager';
 import YoutubeVideoManager from './YoutubeVideoManager';
 
-interface IProps {
+export interface IProps {
 
     /**
      * The available client width.

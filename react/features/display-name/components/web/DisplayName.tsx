@@ -17,7 +17,7 @@ import { appendSuffix } from '../../functions';
 /**
  * The type of the React {@code Component} props of {@link DisplayName}.
  */
-interface IProps {
+export interface IProps {
 
     /**
      * Whether or not the display name should be editable on click.

@@ -30,7 +30,7 @@ import OverflowToggleButton from './OverflowToggleButton';
 /**
  * The type of the React {@code Component} props of {@link OverflowMenuButton}.
  */
-interface IProps {
+export interface IProps {
 
     /**
      * ID of the menu that is controlled by this button.

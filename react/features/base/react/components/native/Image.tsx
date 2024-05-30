@@ -4,7 +4,7 @@ import { Image } from 'react-native';
 /**
  * The type of the React {@code Component} props of {@link Image}.
  */
-interface IProps {
+export interface IProps {
 
     /**
      * The ImageSource to be rendered as image.

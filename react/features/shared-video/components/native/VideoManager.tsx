@@ -10,7 +10,7 @@ import AbstractVideoManager, {
     _mapStateToProps
 } from './AbstractVideoManager';
 
-interface IState {
+export interface IState {
     currentTime: number;
     paused: boolean;
 }

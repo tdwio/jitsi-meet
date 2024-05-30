@@ -12,7 +12,7 @@ import {
 } from '../AbstractCaptions';
 
 
-interface IProps extends IAbstractCaptionsProps {
+export interface IProps extends IAbstractCaptionsProps {
 
     /**
      * Whether the subtitles container is lifted above the invite box.

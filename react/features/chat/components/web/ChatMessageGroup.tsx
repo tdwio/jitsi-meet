@@ -7,7 +7,7 @@ import { IMessage } from '../../types';
 
 import ChatMessage from './ChatMessage';
 
-interface IProps {
+export interface IProps {
 
     /**
      * Additional CSS classes to apply to the root element.

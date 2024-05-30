@@ -39,7 +39,7 @@ import { hasDisplayName } from '../../utils';
 
 import JoinByPhoneDialog from './dialogs/JoinByPhoneDialog';
 
-interface IProps {
+export interface IProps {
 
     /**
      * Flag signaling if the device status is visible or not.

@@ -4,7 +4,7 @@ import { makeStyles } from 'tss-react/mui';
 import { isMobileBrowser } from '../../../environment/utils';
 import Icon from '../../../icons/components/Icon';
 
-interface IProps {
+export interface IProps {
     accessibilityLabel: string;
     className?: string;
     icon: Function;

@@ -9,7 +9,7 @@ import { IconEnterFullscreen, IconExitFullscreen } from '../../../base/icons/svg
 import AbstractButton, { IProps as AbstractButtonProps } from '../../../base/toolbox/components/AbstractButton';
 import { closeOverflowMenuIfOpen, setFullScreen } from '../../actions.web';
 
-interface IProps extends AbstractButtonProps {
+export interface IProps extends AbstractButtonProps {
 
     /**
     * Whether or not the app is currently in full screen.

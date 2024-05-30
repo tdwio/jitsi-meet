@@ -20,7 +20,7 @@ import styles from '../../../video-menu/components/native/styles';
  */
 const AVATAR_SIZE = 24;
 
-interface IProps extends WithTranslation {
+export interface IProps extends WithTranslation {
 
     /**
      * The list of all breakout rooms.

@@ -26,7 +26,7 @@ import AbstractLobbyScreen, {
 
 import styles from './styles';
 
-interface IProps extends AbstractProps {
+export interface IProps extends AbstractProps {
 
     /**
      * The current aspect ratio of the screen.

@@ -11,7 +11,7 @@ const TEST_SOUND_PATH = 'sounds/ring.mp3';
 /**
  * The type of the React {@code Component} props of {@link AudioOutputPreview}.
  */
-interface IProps extends WithTranslation {
+export interface IProps extends WithTranslation {
 
     /**
      * Button className.

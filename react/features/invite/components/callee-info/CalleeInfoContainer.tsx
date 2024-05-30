@@ -8,7 +8,7 @@ import CalleeInfo from './CalleeInfo';
 /**
  * The type of the React {@code Component} props of {@code CalleeInfoContainer}.
  */
-interface IProps {
+export interface IProps {
 
     /**
      * The indicator which determines whether {@code CalleeInfo} is to be

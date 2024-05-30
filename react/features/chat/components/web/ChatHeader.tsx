@@ -6,7 +6,7 @@ import Icon from '../../../base/icons/components/Icon';
 import { IconCloseLarge } from '../../../base/icons/svg';
 import { toggleChat } from '../../actions.web';
 
-interface IProps {
+export interface IProps {
 
     /**
      * An optional class name.

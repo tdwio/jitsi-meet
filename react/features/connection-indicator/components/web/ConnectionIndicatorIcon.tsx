@@ -8,7 +8,7 @@ import { JitsiTrackEvents } from '../../../base/lib-jitsi-meet';
 import { trackStreamingStatusChanged } from '../../../base/tracks/actions.web';
 import { ITrack } from '../../../base/tracks/types';
 
-interface IProps {
+export interface IProps {
 
     /**
      * An object containing the CSS classes.

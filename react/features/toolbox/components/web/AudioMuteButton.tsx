@@ -29,7 +29,7 @@ const styles = () => {
 /**
  * The type of the React {@code Component} props of {@link AudioMuteButton}.
  */
-interface IProps extends AbstractAudioMuteButtonProps {
+export interface IProps extends AbstractAudioMuteButtonProps {
 
   /**
    * The gumPending state from redux.

@@ -8,7 +8,7 @@ import AbstractMessageContainer, { IProps } from '../AbstractMessageContainer';
 import ChatMessageGroup from './ChatMessageGroup';
 import NewMessagesButton from './NewMessagesButton';
 
-interface IState {
+export interface IState {
 
     /**
      * Whether or not message container has received new messages.

@@ -16,7 +16,7 @@ import { isFilmstripResizable, showGridInVerticalView } from '../../functions.we
 
 import Filmstrip from './Filmstrip';
 
-interface IProps {
+export interface IProps {
 
     /**
      * The number of columns in tile view.

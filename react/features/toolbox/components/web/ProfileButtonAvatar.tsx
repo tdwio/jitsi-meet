@@ -10,7 +10,7 @@ import { ILocalParticipant } from '../../../base/participants/types';
  * The type of the React {@code Component} props of
  * {@link ProfileButtonAvatar}.
  */
-interface IProps {
+export interface IProps {
 
     /**
      * The redux representation of the local participant.

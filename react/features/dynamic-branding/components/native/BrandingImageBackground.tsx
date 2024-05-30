@@ -8,7 +8,7 @@ import { IReduxState } from '../../../app/types';
 import styles from './styles';
 
 
-interface IProps {
+export interface IProps {
     uri?: string;
 }
 

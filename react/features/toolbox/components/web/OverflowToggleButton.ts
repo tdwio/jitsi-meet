@@ -8,7 +8,7 @@ import AbstractButton, { IProps as AbstractButtonProps } from '../../../base/too
 /**
  * The type of the React {@code Component} props of {@link OverflowToggleButton}.
  */
-interface IProps extends AbstractButtonProps {
+export interface IProps extends AbstractButtonProps {
 
     /**
      * Whether the more options menu is open.

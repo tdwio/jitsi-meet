@@ -83,7 +83,7 @@ const useStyles = makeStyles()(theme => {
     };
 });
 
-interface IProps {
+export interface IProps {
     columns?: number;
     parent: IReactionsMenuParent;
 }

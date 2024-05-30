@@ -45,7 +45,7 @@ const createEvent = function(quality: string) {
 /**
  * The type of the React {@code Component} props of {@link VideoQualitySlider}.
  */
-interface IProps extends WithTranslation {
+export interface IProps extends WithTranslation {
 
     /**
      * Whether or not the conference is in audio only mode.

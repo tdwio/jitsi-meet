@@ -20,7 +20,7 @@ import styles from './styles';
 /**
  * The tyoe of the React {@code Component} props of {@link CalendarList}.
  */
-interface IProps extends WithTranslation {
+export interface IProps extends WithTranslation {
 
     /**
      * The current state of the calendar access permission.

@@ -103,7 +103,7 @@ export interface IProps {
     t: Function;
 }
 
-interface IState {
+export interface IState {
 
     /**
      * The display name value entered into the field.

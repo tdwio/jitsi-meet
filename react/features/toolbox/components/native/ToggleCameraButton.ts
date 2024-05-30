@@ -11,7 +11,7 @@ import { isLocalTrackMuted } from '../../../base/tracks/functions.native';
 /**
  * The type of the React {@code Component} props of {@link ToggleCameraButton}.
  */
-interface IProps extends AbstractButtonProps {
+export interface IProps extends AbstractButtonProps {
 
     /**
      * Whether the current conference is in audio only mode or not.

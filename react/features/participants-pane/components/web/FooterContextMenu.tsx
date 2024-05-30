@@ -64,7 +64,7 @@ const useStyles = makeStyles()(theme => {
     };
 });
 
-interface IProps {
+export interface IProps {
 
     /**
      * Whether the menu is open.

@@ -5,7 +5,7 @@ import { IStore } from '../../../app/types';
 import { removeReaction } from '../../actions.any';
 import { REACTIONS } from '../../constants';
 
-interface IProps {
+export interface IProps {
 
     /**
      * Index of the reaction in the queue.
@@ -28,7 +28,7 @@ interface IProps {
     uid: string;
 }
 
-interface IState {
+export interface IState {
 
     /**
      * Index of CSS animation. Number between 0-20.

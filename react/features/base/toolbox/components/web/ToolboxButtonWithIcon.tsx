@@ -4,7 +4,7 @@ import { NOTIFY_CLICK_MODE } from '../../../../toolbox/types';
 import Icon from '../../../icons/components/Icon';
 import Tooltip from '../../../tooltip/components/Tooltip';
 
-interface IProps {
+export interface IProps {
 
     /**
      * The id of the element this button icon controls.

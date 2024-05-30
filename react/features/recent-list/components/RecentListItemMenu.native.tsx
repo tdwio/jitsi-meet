@@ -12,7 +12,7 @@ import DeleteItemButton from './DeleteItemButton.native';
 import ShowDialInInfoButton from './ShowDialInInfoButton.native';
 import styles from './styles.native';
 
-interface IProps {
+export interface IProps {
 
     /**
      * The Redux dispatch function.

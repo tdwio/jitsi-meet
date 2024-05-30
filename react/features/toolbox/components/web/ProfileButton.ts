@@ -15,7 +15,7 @@ import ProfileButtonAvatar from './ProfileButtonAvatar';
 /**
  * The type of the React {@code Component} props of {@link ProfileButton}.
  */
-interface IProps extends AbstractButtonProps {
+export interface IProps extends AbstractButtonProps {
 
     /**
      * Default displayed name for local participant.

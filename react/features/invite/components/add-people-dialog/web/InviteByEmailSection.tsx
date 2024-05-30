@@ -21,7 +21,7 @@ import { NOTIFICATION_TIMEOUT_TYPE } from '../../../../notifications/constants';
 
 let mounted: boolean;
 
-interface IProps extends WithTranslation {
+export interface IProps extends WithTranslation {
 
     /**
      * The encoded invitation subject.

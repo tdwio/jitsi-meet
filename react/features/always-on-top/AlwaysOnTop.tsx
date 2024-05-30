@@ -18,7 +18,7 @@ const TOOLBAR_TIMEOUT = 4000;
 /**
  * The type of the React {@code Component} state of {@link AlwaysOnTop}.
  */
-interface IState {
+export interface IState {
     avatarURL: string;
     customAvatarBackgrounds: Array<string>;
     displayName: string;

@@ -8,7 +8,7 @@ import Dialog from '../../../base/ui/components/web/Dialog';
 /**
  * The type of {@link LogoutDialog}'s React {@code Component} props.
  */
-interface IProps extends WithTranslation {
+export interface IProps extends WithTranslation {
 
     /**
      * Logout handler.

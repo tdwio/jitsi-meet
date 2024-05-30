@@ -48,7 +48,7 @@ import styles, { AVATAR_SIZE } from './styles';
 /**
  * Thumbnail component's property types.
  */
-interface IProps {
+export interface IProps {
 
     /**
      * Whether local audio (microphone) is muted or not.

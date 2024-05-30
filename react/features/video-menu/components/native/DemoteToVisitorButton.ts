@@ -8,7 +8,7 @@ import AbstractButton, { IProps as AbstractButtonProps } from '../../../base/too
 
 import DemoteToVisitorDialog from './DemoteToVisitorDialog';
 
-interface IProps extends AbstractButtonProps {
+export interface IProps extends AbstractButtonProps {
 
     /**
      * The ID of the participant that this button is supposed to kick.

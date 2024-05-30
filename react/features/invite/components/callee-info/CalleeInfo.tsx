@@ -19,7 +19,7 @@ import styles from './styles';
 /**
  * The type of the React {@code Component} props of {@link CalleeInfo}.
  */
-interface IProps {
+export interface IProps {
 
     /**
      * The callee's information such as display name.

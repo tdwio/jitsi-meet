@@ -11,7 +11,7 @@ import { useSafeAreaInsets } from 'react-native-safe-area-context';
 
 import { StyleType } from '../../styles/functions.any';
 
-interface IProps {
+export interface IProps {
 
     /**
      * Adds bottom padding.

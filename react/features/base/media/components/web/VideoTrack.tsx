@@ -9,7 +9,7 @@ import Video from './Video';
 /**
  * The type of the React {@code Component} props of {@link VideoTrack}.
  */
-interface IProps extends AbstractVideoTrackProps {
+export interface IProps extends AbstractVideoTrackProps {
 
     /**
      *

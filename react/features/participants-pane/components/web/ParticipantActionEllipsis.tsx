@@ -3,7 +3,7 @@ import React from 'react';
 import { IconDotsHorizontal } from '../../../base/icons/svg';
 import Button from '../../../base/ui/components/web/Button';
 
-interface IProps {
+export interface IProps {
 
     /**
      * Label used for accessibility.

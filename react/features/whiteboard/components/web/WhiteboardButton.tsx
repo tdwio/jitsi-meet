@@ -8,7 +8,7 @@ import { setOverflowMenuVisible } from '../../../toolbox/actions.web';
 import { setWhiteboardOpen } from '../../actions.any';
 import { isWhiteboardButtonVisible, isWhiteboardVisible } from '../../functions';
 
-interface IProps extends AbstractButtonProps {
+export interface IProps extends AbstractButtonProps {
 
     /**
      * Whether or not the button is toggled.

@@ -41,7 +41,7 @@ import styles from './styles';
  */
 const AVATAR_SIZE = 24;
 
-interface IProps {
+export interface IProps {
 
     /**
      * The id of the current room.

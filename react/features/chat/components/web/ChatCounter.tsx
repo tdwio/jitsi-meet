@@ -8,7 +8,7 @@ import { getUnreadCount } from '../../functions';
 /**
  * The type of the React {@code Component} props of {@link ChatCounter}.
  */
-interface IProps {
+export interface IProps {
 
     /**
      * The value of to display as a count.

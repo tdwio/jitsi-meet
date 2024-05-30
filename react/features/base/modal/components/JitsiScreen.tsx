@@ -7,7 +7,7 @@ import { StyleType } from '../../styles/functions.any';
 import JitsiKeyboardAvoidingView from './JitsiKeyboardAvoidingView';
 import styles from './styles';
 
-interface IProps {
+export interface IProps {
 
     /**
      * Adds bottom padding.

@@ -15,7 +15,7 @@ const BASE_STYLE = {
 /**
  * {@code TintedView}'s React {@code Component} prop types.
  */
-interface IProps {
+export interface IProps {
 
     /**
      * The children components of this component.

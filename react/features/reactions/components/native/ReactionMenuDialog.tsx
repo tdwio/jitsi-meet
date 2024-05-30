@@ -14,7 +14,7 @@ import ReactionMenu from './ReactionMenu';
 /**
  * The type of the React {@code Component} props of {@link ReactionMenuDialog}.
  */
-interface IProps {
+export interface IProps {
 
     /**
     * The height of the screen.

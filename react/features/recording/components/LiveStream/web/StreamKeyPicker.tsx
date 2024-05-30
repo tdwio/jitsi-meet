@@ -8,7 +8,7 @@ import { YOUTUBE_LIVE_DASHBOARD_URL } from '../constants';
 /**
  * The type of the React {@code Component} props of {@link StreamKeyPicker}.
  */
-interface IProps extends WithTranslation {
+export interface IProps extends WithTranslation {
 
     /**
      * Broadcasts available for selection. Each broadcast item should be an

@@ -4,7 +4,7 @@ import { Section } from '../../types';
 
 import Text from './Text';
 
-interface IProps {
+export interface IProps {
 
     /**
      * A section containing the data to be rendered.

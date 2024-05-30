@@ -5,7 +5,7 @@ import { IReduxState } from '../../app/types';
 import isInsecureRoomName from '../../base/util/isInsecureRoomName';
 import { isUnsafeRoomWarningEnabled } from '../../prejoin/functions';
 
-interface IProps extends WithTranslation {
+export interface IProps extends WithTranslation {
 
     /**
      * True of the label should be visible.

@@ -6,7 +6,7 @@ import { Video } from '../../base/media/components/index';
 /**
  * The type of the React {@code Component} props of {@link VideoInputPreview}.
  */
-interface IProps {
+export interface IProps {
 
     /**
      * An error message to display instead of a preview. Displaying an error

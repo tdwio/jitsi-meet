@@ -8,7 +8,7 @@ import Icon from '../../../../base/icons/components/Icon';
 import { IconCheck, IconCopy } from '../../../../base/icons/svg';
 import { copyText } from '../../../../base/util/copyText.web';
 
-interface IProps extends WithTranslation {
+export interface IProps extends WithTranslation {
 
     /**
      * The current known URL for a live stream in progress.

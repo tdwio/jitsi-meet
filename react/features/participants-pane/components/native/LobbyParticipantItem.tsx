@@ -9,7 +9,7 @@ import { setKnockingParticipantApproval } from '../../../lobby/actions.native';
 import ParticipantItem from './ParticipantItem';
 import styles from './styles';
 
-interface IProps {
+export interface IProps {
 
     /**
      * Participant reference.

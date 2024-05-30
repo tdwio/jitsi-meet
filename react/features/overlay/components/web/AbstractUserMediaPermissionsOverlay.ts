@@ -7,7 +7,7 @@ import { IReduxState } from '../../../app/types';
  * The type of the React {@code Component} props of
  * {@link AbstractUserMediaPermissionsOverlay}.
  */
-interface IProps extends WithTranslation {
+export interface IProps extends WithTranslation {
 
     _premeetingBackground?: any;
 

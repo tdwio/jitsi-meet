@@ -16,7 +16,7 @@ import { isAudioSettingsButtonDisabled } from '../../functions';
 
 import AudioMuteButton from './AudioMuteButton';
 
-interface IProps extends WithTranslation {
+export interface IProps extends WithTranslation {
 
     /**
      * The button's key.

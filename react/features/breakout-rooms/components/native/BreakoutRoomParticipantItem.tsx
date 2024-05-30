@@ -7,7 +7,7 @@ import { showRoomParticipantMenu } from '../../../participants-pane/actions.nati
 import ParticipantItem from '../../../participants-pane/components/native/ParticipantItem';
 import { IRoom } from '../../types';
 
-interface IProps {
+export interface IProps {
 
     /**
      * Participant to be displayed.

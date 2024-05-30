@@ -24,7 +24,7 @@ import ToggleTopPanelLabel from './ToggleTopPanelLabel';
 /**
  * The type of the React {@code Component} props of {@link Subject}.
  */
-interface IProps {
+export interface IProps {
 
     /**
      * The conference info labels to be shown in the conference header.

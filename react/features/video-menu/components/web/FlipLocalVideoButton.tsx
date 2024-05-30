@@ -11,7 +11,7 @@ import { NOTIFY_CLICK_MODE } from '../../../toolbox/types';
 /**
  * The type of the React {@code Component} props of {@link FlipLocalVideoButton}.
  */
-interface IProps extends WithTranslation {
+export interface IProps extends WithTranslation {
 
     /**
      * The current local flip x status.

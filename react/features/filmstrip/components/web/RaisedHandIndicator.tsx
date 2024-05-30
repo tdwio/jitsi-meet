@@ -12,7 +12,7 @@ import { TOOLTIP_POSITION } from '../../../base/ui/constants.any';
 /**
  * The type of the React {@code Component} props of {@link RaisedHandIndicator}.
  */
-interface IProps {
+export interface IProps {
 
     /**
      * The font-size for the icon.

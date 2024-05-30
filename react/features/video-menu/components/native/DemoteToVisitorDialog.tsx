@@ -5,7 +5,7 @@ import ConfirmDialog from '../../../base/dialog/components/native/ConfirmDialog'
 import { DialogProps } from '../../../base/dialog/constants';
 import { demoteRequest } from '../../../visitors/actions';
 
-interface IProps extends DialogProps {
+export interface IProps extends DialogProps {
 
     /**
      * The ID of the remote participant to be demoted.

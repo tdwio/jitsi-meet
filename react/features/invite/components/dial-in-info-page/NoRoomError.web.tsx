@@ -4,7 +4,7 @@ import { useTranslation } from 'react-i18next';
 /**
  * The type of the React {@code Component} props of {@link NoRoomError}.
  */
-interface IProps {
+export interface IProps {
 
     /**
      * Additional CSS classnames to append to the root of the component.

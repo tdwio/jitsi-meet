@@ -9,7 +9,7 @@ import { getPinnedActiveParticipants } from '../../../filmstrip/functions.web';
 import { NOTIFY_CLICK_MODE } from '../../../toolbox/types';
 import { IButtonProps } from '../../types';
 
-interface IProps extends IButtonProps {
+export interface IProps extends IButtonProps {
 
     /**
      * Button text class name.

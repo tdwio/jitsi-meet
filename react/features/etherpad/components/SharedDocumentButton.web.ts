@@ -9,7 +9,7 @@ import AbstractButton, { IProps as AbstractButtonProps } from '../../base/toolbo
 import { setOverflowMenuVisible } from '../../toolbox/actions.web';
 import { toggleDocument } from '../actions';
 
-interface IProps extends AbstractButtonProps {
+export interface IProps extends AbstractButtonProps {
 
     /**
      * Whether the shared document is being edited or not.

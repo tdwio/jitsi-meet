@@ -12,7 +12,7 @@ const INITIAL_DISPLAY_NAME = '';
 /**
  * The type of the React {@code Component} props of {@link DisplayNamePrompt}.
  */
-interface IState {
+export interface IState {
 
     /**
      * The name to show in the display name text field.

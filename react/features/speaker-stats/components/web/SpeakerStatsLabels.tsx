@@ -21,7 +21,7 @@ const useStyles = makeStyles()(theme => {
 /**
  * The type of the React {@code Component} props of {@link SpeakerStatsLabels}.
  */
-interface IProps {
+export interface IProps {
 
     /**
      * True if the face expressions detection is not disabled.

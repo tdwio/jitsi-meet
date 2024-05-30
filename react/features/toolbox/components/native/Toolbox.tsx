@@ -25,7 +25,7 @@ import styles from './styles';
 /**
  * The type of {@link Toolbox}'s React {@code Component} props.
  */
-interface IProps {
+export interface IProps {
 
     /**
      * Whether the end conference feature is supported.

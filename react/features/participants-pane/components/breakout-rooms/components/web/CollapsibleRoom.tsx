@@ -16,7 +16,7 @@ import { participantMatchesSearch } from '../../../../functions';
 import ParticipantActionEllipsis from '../../../web/ParticipantActionEllipsis';
 import ParticipantItem from '../../../web/ParticipantItem';
 
-interface IProps {
+export interface IProps {
 
     /**
      * Type of trigger for the breakout room actions.

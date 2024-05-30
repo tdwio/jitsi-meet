@@ -6,7 +6,7 @@ import { IReduxState } from '../../../app/types';
 
 import BaseTheme from './BaseTheme.web';
 
-interface IProps {
+export interface IProps {
 
     /**
      * The default theme or theme set through advanced branding.

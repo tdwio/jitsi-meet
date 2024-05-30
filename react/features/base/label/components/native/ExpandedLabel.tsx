@@ -17,7 +17,7 @@ export interface IProps {
     style?: Object;
 }
 
-interface IState {
+export interface IState {
 
     /**
      * The opacity animation Object.

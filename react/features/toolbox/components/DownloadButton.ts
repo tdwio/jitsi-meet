@@ -8,7 +8,7 @@ import { IconDownload } from '../../base/icons/svg';
 import AbstractButton, { IProps as AbstractButtonProps } from '../../base/toolbox/components/AbstractButton';
 import { openURLInBrowser } from '../../base/util/openURLInBrowser';
 
-interface IProps extends AbstractButtonProps {
+export interface IProps extends AbstractButtonProps {
 
     /**
      * The URL to the applications page.

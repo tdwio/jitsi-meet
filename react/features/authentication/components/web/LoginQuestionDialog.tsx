@@ -6,7 +6,7 @@ import Dialog from '../../../base/ui/components/web/Dialog';
 /**
  * The type of {@link LoginQuestionDialog}'s React {@code Component} props.
  */
-interface IProps {
+export interface IProps {
 
     /**
      * The handler.

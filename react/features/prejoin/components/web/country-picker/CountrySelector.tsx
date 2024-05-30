@@ -5,7 +5,7 @@ import Icon from '../../../../base/icons/components/Icon';
 import { IconArrowDown } from '../../../../base/icons/svg';
 import { withPixelLineHeight } from '../../../../base/styles/functions.web';
 
-interface IProps {
+export interface IProps {
 
     /**
      * Country object of the entry.

@@ -4,7 +4,7 @@ import BaseTheme from '../../../base/ui/components/BaseTheme';
 
 import { EXPANDED_LABELS } from './constants';
 
-interface IProps {
+export interface IProps {
 
     /**
      * The selected label to show details.

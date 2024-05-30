@@ -10,7 +10,7 @@ import styles from './styles';
 /**
  * The type of the React {@code Component} props of {@link FormSection}.
  */
-interface IProps extends WithTranslation {
+export interface IProps extends WithTranslation {
 
     /**
      * The children to be displayed within this Link.

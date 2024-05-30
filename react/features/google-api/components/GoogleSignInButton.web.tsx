@@ -3,7 +3,7 @@ import { WithTranslation } from 'react-i18next';
 
 import { translate } from '../../base/i18n/functions';
 
-interface IProps extends WithTranslation {
+export interface IProps extends WithTranslation {
 
     /**
      * The callback to invoke when the button is clicked.

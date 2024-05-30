@@ -37,7 +37,7 @@ const VALID_TYPES = Object.keys(TAB_LABELS);
 /**
  * The type of the React {@code Component} props of {@link DesktopPicker}.
  */
-interface IProps extends WithTranslation {
+export interface IProps extends WithTranslation {
 
     /**
      * An array with desktop sharing sources to be displayed.
@@ -59,7 +59,7 @@ interface IProps extends WithTranslation {
 /**
  * The type of the React {@code Component} state of {@link DesktopPicker}.
  */
-interface IState {
+export interface IState {
 
     /**
      * The state of the audio screen share checkbox.

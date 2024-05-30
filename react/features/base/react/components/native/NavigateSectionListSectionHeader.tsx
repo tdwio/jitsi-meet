@@ -7,7 +7,7 @@ import Container from './Container';
 import Text from './Text';
 import styles from './styles';
 
-interface IProps {
+export interface IProps {
 
     /**
      * A section containing the data to be rendered.

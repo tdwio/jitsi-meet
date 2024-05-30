@@ -24,7 +24,7 @@ import { IReactionsMenuParent } from '../../types';
 
 import ReactionButton from './ReactionButton';
 
-interface IProps {
+export interface IProps {
 
     /**
      * Docks the toolbox.

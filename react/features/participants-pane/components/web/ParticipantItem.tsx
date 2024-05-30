@@ -17,7 +17,7 @@ import {
 
 import { RaisedHandIndicator } from './RaisedHandIndicator';
 
-interface IProps extends WithTranslation {
+export interface IProps extends WithTranslation {
 
     /**
      * Type of trigger for the participant actions.

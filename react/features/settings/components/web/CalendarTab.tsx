@@ -19,7 +19,7 @@ import logger from '../../logger';
 /**
  * The type of the React {@code Component} props of {@link CalendarTab}.
  */
-interface IProps extends WithTranslation {
+export interface IProps extends WithTranslation {
 
     /**
      * The name given to this Jitsi Application.
@@ -60,7 +60,7 @@ interface IProps extends WithTranslation {
 /**
  * The type of the React {@code Component} state of {@link CalendarTab}.
  */
-interface IState {
+export interface IState {
 
     /**
      * Whether or not any third party APIs are being loaded.

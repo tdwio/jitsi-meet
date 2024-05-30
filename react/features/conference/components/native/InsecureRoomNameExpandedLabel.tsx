@@ -8,7 +8,7 @@ import getUnsafeRoomText from '../../../base/util/getUnsafeRoomText.native';
 
 import { INSECURE_ROOM_NAME_LABEL_COLOR } from './styles';
 
-interface IProps extends AbstractProps, WithTranslation {
+export interface IProps extends AbstractProps, WithTranslation {
     getUnsafeRoomTextFn: Function;
 }
 

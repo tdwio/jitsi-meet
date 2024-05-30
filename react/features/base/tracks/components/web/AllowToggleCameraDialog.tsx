@@ -8,7 +8,7 @@ import { getParticipantDisplayName } from '../../../participants/functions';
 import Dialog from '../../../ui/components/web/Dialog';
 
 
-interface IProps extends WithTranslation {
+export interface IProps extends WithTranslation {
 
     /**
      * The participant id of the toggle camera requester.

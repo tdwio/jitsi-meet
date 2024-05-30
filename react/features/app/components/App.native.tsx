@@ -33,12 +33,12 @@ const DialogContainerWrapper = Platform.select({
 /**
  * The type of React {@code Component} props of {@link App}.
  */
-interface IProps extends AbstractAppProps {
+export interface IProps extends AbstractAppProps {
 
     /**
      * An object with the feature flags.
      */
-    flags: any;
+    flags?: any;
 
     /**
      * An object with user information (display name, email, avatar URL).

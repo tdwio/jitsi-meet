@@ -13,7 +13,7 @@ import styles from './styles';
 /**
  * The type of the React {@code Component} props of {@link SectionList}.
  */
-interface IProps {
+export interface IProps {
 
     /**
      * Rendered when the list is empty. Can be a React Component Class, a render

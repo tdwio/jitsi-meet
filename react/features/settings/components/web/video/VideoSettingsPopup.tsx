@@ -18,7 +18,7 @@ import { getVideoSettingsVisibility } from '../../../functions.web';
 import VideoSettingsContent from './VideoSettingsContent';
 
 
-interface IProps {
+export interface IProps {
 
     /**
     * Component children (the Video button).

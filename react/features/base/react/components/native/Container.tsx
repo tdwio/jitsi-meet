@@ -8,7 +8,7 @@ import {
 
 import AbstractContainer, { IProps as AbstractProps } from '../AbstractContainer';
 
-interface IProps extends AbstractProps {
+export interface IProps extends AbstractProps {
 
     onClick?: (e: GestureResponderEvent) => void;
 

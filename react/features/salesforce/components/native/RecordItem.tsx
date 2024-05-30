@@ -10,7 +10,7 @@ import styles from './styles';
 /**
  * The type of the React {@code Component} props of {@link RecordItem}.
  */
-interface IProps {
+export interface IProps {
 
     /**
      * The id of the record.

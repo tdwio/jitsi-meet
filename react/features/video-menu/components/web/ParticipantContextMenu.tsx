@@ -44,7 +44,7 @@ import TogglePinToStageButton from './TogglePinToStageButton';
 import VerifyParticipantButton from './VerifyParticipantButton';
 import VolumeSlider from './VolumeSlider';
 
-interface IProps {
+export interface IProps {
 
     /**
      * Class name for the context menu.

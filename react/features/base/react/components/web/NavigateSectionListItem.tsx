@@ -9,7 +9,7 @@ import Text from './Text';
  * The type of the React {@code Component} props of
  * {@link NavigateSectionListItem}.
  */
-interface IProps {
+export interface IProps {
 
     /**
      * A item containing data to be rendered.

@@ -11,7 +11,7 @@ import AbstractStreamKeyForm, {
     _mapStateToProps
 } from '../AbstractStreamKeyForm';
 
-interface IProps extends AbstractProps {
+export interface IProps extends AbstractProps {
 
     /**
      * An object containing the CSS classes.

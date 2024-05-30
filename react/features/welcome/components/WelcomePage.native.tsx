@@ -34,7 +34,7 @@ import {
 } from './AbstractWelcomePage';
 import styles from './styles.native';
 
-interface IProps extends AbstractProps {
+export interface IProps extends AbstractProps {
 
     /**
      * Function for getting the unsafe room text.

@@ -9,7 +9,7 @@ import { VOLUME_SLIDER_SCALE } from '../../constants';
 /**
  * The type of the React {@code Component} props of {@link VolumeSlider}.
  */
-interface IProps {
+export interface IProps {
 
     /**
      * The value of the audio slider should display at when the component first

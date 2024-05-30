@@ -5,7 +5,7 @@ import { useSelector } from 'react-redux';
 import { IReduxState } from '../../../app/types';
 import { ZINDEX_DIALOG_PORTAL } from '../../constants';
 
-interface IProps {
+export interface IProps {
 
     /**
      * The component(s) to be displayed within the drawer portal.

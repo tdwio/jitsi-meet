@@ -25,7 +25,7 @@ const useStyles = makeStyles()(theme => {
 /**
  * The type of the React {@code Component} props of {@link InlineDialogFailure}.
  */
-interface IProps {
+export interface IProps {
 
     /**
      * Allows to retry the call that previously didn't succeed.

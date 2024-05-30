@@ -6,7 +6,7 @@ import { sendAnalytics } from '../../analytics/functions';
 import { IStore } from '../../app/types';
 import { kickParticipant } from '../../base/participants/actions';
 
-interface IProps extends WithTranslation {
+export interface IProps extends WithTranslation {
 
     /**
      * The Redux dispatch function.

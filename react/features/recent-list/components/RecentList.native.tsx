@@ -18,7 +18,7 @@ import RecentListItemMenu from './RecentListItemMenu.native';
 /**
  * The type of the React {@code Component} props of {@link RecentList}.
  */
-interface IProps extends WithTranslation {
+export interface IProps extends WithTranslation {
 
     /**
      * The default server URL.

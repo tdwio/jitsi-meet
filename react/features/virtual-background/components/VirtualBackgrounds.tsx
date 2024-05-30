@@ -24,7 +24,7 @@ import UploadImageButton from './UploadImageButton';
 import VirtualBackgroundPreview from './VirtualBackgroundPreview';
 /* eslint-enable lines-around-comment */
 
-interface IProps extends WithTranslation {
+export interface IProps extends WithTranslation {
 
     /**
      * The list of Images to choose from.

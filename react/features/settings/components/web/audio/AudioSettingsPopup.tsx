@@ -24,7 +24,7 @@ import { getAudioSettingsVisibility } from '../../../functions.web';
 import AudioSettingsContent from './AudioSettingsContent';
 
 
-interface IProps {
+export interface IProps {
 
     /**
     * Component's children (the audio button).

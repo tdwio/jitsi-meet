@@ -8,7 +8,7 @@ import PollAnswer from './PollAnswer';
 import PollResults from './PollResults';
 import { chatStyles } from './styles';
 
-interface IProps {
+export interface IProps {
 
     /**
      * Id of the poll.

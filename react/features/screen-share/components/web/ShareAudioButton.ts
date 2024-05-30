@@ -9,7 +9,7 @@ import { setOverflowMenuVisible } from '../../../toolbox/actions.web';
 import { startAudioScreenShareFlow } from '../../actions.web';
 import { isAudioOnlySharing, isScreenAudioSupported } from '../../functions';
 
-interface IProps extends AbstractButtonProps {
+export interface IProps extends AbstractButtonProps {
 
     /**
      * Whether or not the local participant is audio only screen sharing.

@@ -13,7 +13,7 @@ import AbstractButton, { IProps as AbstractButtonProps } from '../../../base/too
 /**
  * The type of the React {@code Component} props of {@link RaiseHandButton}.
  */
-interface IProps extends AbstractButtonProps {
+export interface IProps extends AbstractButtonProps {
 
     /**
      * Whether or not the hand is raised.

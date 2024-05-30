@@ -20,7 +20,7 @@ export const REMOTE_CONTROL_MENU_STATES = {
 /**
  * The type of the React {@code Component} props of {@link RemoteControlButton}.
  */
-interface IProps extends WithTranslation {
+export interface IProps extends WithTranslation {
 
     /**
      * Callback to execute when the button is clicked.

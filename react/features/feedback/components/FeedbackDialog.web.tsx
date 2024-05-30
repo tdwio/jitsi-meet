@@ -89,7 +89,7 @@ const ICON_SIZE = 32;
 /**
  * The type of the React {@code Component} props of {@link FeedbackDialog}.
  */
-interface IProps {
+export interface IProps {
 
     /**
      * The JitsiConference that is being rated. The conference is passed in

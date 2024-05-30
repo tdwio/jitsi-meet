@@ -8,7 +8,7 @@ import Button from '../../../base/ui/components/web/Button';
 /**
  * The type of the React {@code Component} props of {@link ReloadButton}.
  */
-interface IProps {
+export interface IProps {
 
     /**
      * The translation key for the text in the button.

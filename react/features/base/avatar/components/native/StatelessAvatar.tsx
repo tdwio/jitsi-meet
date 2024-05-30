@@ -11,7 +11,7 @@ import styles from './styles';
 // eslint-disable-next-line @typescript-eslint/no-var-requires
 const DEFAULT_AVATAR = require('../../../../../../images/avatar.png');
 
-interface IProps extends IAvatarProps {
+export interface IProps extends IAvatarProps {
 
     /**
      * One of the expected status strings (e.g. 'available') to render a badge on the avatar, if necessary.

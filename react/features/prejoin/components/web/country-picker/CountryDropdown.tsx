@@ -5,7 +5,7 @@ import { countries } from '../../../utils';
 
 import CountryRow from './CountryRow';
 
-interface IProps {
+export interface IProps {
 
     /**
      * Click handler for a single entry.

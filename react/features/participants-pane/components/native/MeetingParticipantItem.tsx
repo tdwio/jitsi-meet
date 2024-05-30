@@ -24,7 +24,7 @@ import { getParticipantAudioMediaState, getParticipantVideoMediaState } from '..
 
 import ParticipantItem from './ParticipantItem';
 
-interface IProps {
+export interface IProps {
 
     /**
      * Media state for audio.

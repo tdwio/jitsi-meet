@@ -6,7 +6,7 @@ import { IMessage } from '../../types';
 
 import ChatMessage from './ChatMessage';
 
-interface IProps {
+export interface IProps {
 
     /**
     * The messages array to render.

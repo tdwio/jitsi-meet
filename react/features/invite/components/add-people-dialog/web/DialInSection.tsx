@@ -9,7 +9,7 @@ import { getDialInfoPageURL, hasMultipleNumbers } from '../../../functions';
 
 import DialInNumber from './DialInNumber';
 
-interface IProps {
+export interface IProps {
 
     /**
      * The phone number to dial to begin the process of dialing into a

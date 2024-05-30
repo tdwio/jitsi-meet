@@ -38,7 +38,7 @@ const styles = (theme: Theme) => {
 };
 
 
-interface IProps extends AbstractProps {
+export interface IProps extends AbstractProps {
 
     /**
      * The {@link JitsiMeetConference} which will be used to invite "room" participants.

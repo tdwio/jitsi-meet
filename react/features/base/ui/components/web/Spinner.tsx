@@ -2,7 +2,7 @@ import React from 'react';
 import { keyframes } from 'tss-react';
 import { makeStyles } from 'tss-react/mui';
 
-interface IProps {
+export interface IProps {
     color?: string;
     size?: 'small' | 'medium' | 'large';
 }

@@ -11,7 +11,7 @@ import { IDeeplinkingConfig } from '../../base/config/configType';
  * The type of the React {@code Component} props of
  * {@link NoMobileApp}.
  */
-interface IProps {
+export interface IProps {
 
     /**
      * The deeplinking config.

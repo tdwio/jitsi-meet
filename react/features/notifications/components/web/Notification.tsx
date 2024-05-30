@@ -20,7 +20,7 @@ import { NOTIFICATION_ICON, NOTIFICATION_TYPE } from '../../constants';
 import { INotificationProps } from '../../types';
 import { NotificationsTransitionContext } from '../NotificationsTransition';
 
-interface IProps extends INotificationProps {
+export interface IProps extends INotificationProps {
 
     /**
      * Callback invoked when the user clicks to dismiss the notification.

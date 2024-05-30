@@ -10,7 +10,7 @@ import { Sound } from '../reducer';
 /**
  * {@link SoundCollection}'s properties.
  */
-interface IProps {
+export interface IProps {
 
     /**
      * Dispatches {@link _ADD_AUDIO_ELEMENT} Redux action which will store the

@@ -12,7 +12,7 @@ import { isScreenVideoShared } from '../../../screen-share/functions';
 import { closeOverflowMenuIfOpen } from '../../actions.web';
 import { isDesktopShareButtonDisabled } from '../../functions';
 
-interface IProps extends AbstractButtonProps {
+export interface IProps extends AbstractButtonProps {
 
     /**
      * Whether or not screensharing is initialized.

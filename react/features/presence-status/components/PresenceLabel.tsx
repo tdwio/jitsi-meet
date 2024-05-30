@@ -12,7 +12,7 @@ import { presenceStatusDisabled } from '../functions';
 /**
  * The type of the React {@code Component} props of {@link PresenceLabel}.
  */
-interface IProps extends WithTranslation {
+export interface IProps extends WithTranslation {
 
     /**
      * The current present status associated with the passed in participantID

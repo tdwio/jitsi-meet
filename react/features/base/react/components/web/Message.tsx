@@ -7,7 +7,7 @@ import { isGifMessage } from '../../../../gifs/functions.web';
 
 import Linkify from './Linkify';
 
-interface IProps {
+export interface IProps {
 
     /**
      * The body of the message.

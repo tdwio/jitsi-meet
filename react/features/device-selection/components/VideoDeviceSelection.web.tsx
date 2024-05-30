@@ -91,7 +91,7 @@ export interface IProps extends AbstractDialogTabProps, WithTranslation {
 /**
  * The type of the React {@code Component} state of {@link VideoDeviceSelection}.
  */
-interface IState {
+export interface IState {
 
     /**
      * The JitsiTrack to use for previewing video input.

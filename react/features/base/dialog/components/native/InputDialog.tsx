@@ -13,7 +13,7 @@ import AbstractDialog, {
 } from './AbstractDialog';
 import { inputDialog as styles } from './styles';
 
-interface IProps extends AbstractProps, WithTranslation {
+export interface IProps extends AbstractProps, WithTranslation {
 
     /**
      * The dialog descriptionKey.
@@ -51,7 +51,7 @@ interface IProps extends AbstractProps, WithTranslation {
     validateInput?: Function;
 }
 
-interface IState extends AbstractState {
+export interface IState extends AbstractState {
 
     /**
      * The current value of the field.

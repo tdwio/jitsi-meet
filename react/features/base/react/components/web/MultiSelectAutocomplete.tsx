@@ -11,7 +11,7 @@ import InlineDialogFailure from './InlineDialogFailure';
  * The type of the React {@code Component} props of
  * {@link MultiSelectAutocomplete}.
  */
-interface IProps {
+export interface IProps {
 
     /**
      * The default value of the selected item.
@@ -85,7 +85,7 @@ interface IProps {
  * The type of the React {@code Component} state of
  * {@link MultiSelectAutocomplete}.
  */
-interface IState {
+export interface IState {
 
     /**
      * Indicates if there was an error.

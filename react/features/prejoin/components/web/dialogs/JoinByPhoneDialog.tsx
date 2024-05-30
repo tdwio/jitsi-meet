@@ -15,7 +15,7 @@ import CallingDialog from './CallingDialog';
 import DialInDialog from './DialInDialog';
 import DialOutDialog from './DialOutDialog';
 
-interface IProps {
+export interface IProps {
 
     /**
      * The number to call in order to join the conference.

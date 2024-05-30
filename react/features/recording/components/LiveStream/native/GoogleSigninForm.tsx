@@ -22,7 +22,7 @@ import styles from './styles';
 /**
  * Prop type of the component {@code GoogleSigninForm}.
  */
-interface IProps extends WithTranslation {
+export interface IProps extends WithTranslation {
 
     /**
      * Style of the dialogs feature.

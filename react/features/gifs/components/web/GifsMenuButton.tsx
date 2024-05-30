@@ -7,7 +7,7 @@ import { IReactionsMenuParent } from '../../../reactions/types';
 import { setGifMenuVisibility } from '../../actions';
 import { isGifsMenuOpen } from '../../functions.web';
 
-interface IProps {
+export interface IProps {
     parent: IReactionsMenuParent;
 }
 

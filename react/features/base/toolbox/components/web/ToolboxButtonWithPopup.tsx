@@ -3,7 +3,7 @@ import React from 'react';
 import Icon from '../../../icons/components/Icon';
 import Popover from '../../../popover/components/Popover.web';
 
-interface IProps {
+export interface IProps {
 
     /**
      * Aria label for the Icon.

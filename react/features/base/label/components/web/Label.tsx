@@ -5,7 +5,7 @@ import Icon from '../../../icons/components/Icon';
 import { withPixelLineHeight } from '../../../styles/functions.web';
 import { COLORS } from '../../constants';
 
-interface IProps {
+export interface IProps {
 
     /**
      * Optional label for screen reader users, invisible in the UI.

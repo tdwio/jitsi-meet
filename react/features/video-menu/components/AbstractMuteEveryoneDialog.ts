@@ -22,7 +22,7 @@ export interface IProps extends AbstractProps {
     title: string;
 }
 
-interface IState {
+export interface IState {
     audioModerationEnabled?: boolean;
     content: string;
 }

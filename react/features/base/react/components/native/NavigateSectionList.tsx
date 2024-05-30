@@ -9,7 +9,7 @@ import NavigateSectionListItem from './NavigateSectionListItem';
 import NavigateSectionListSectionHeader from './NavigateSectionListSectionHeader';
 import SectionList from './SectionList';
 
-interface IProps {
+export interface IProps {
 
     /**
      * Indicates if the list is disabled or not.

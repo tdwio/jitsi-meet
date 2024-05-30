@@ -13,7 +13,7 @@ const { api } = window.alwaysOnTop;
 /**
  * The type of the React {@code Component} state of {@link AudioMuteButton}.
  */
-interface IState {
+export interface IState {
 
     /**
      * Whether audio is available is not.

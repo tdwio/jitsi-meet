@@ -8,7 +8,7 @@ import { translate } from '../../base/i18n/functions';
  * The type of the React {@code Component} props of
  * {@link DesktopSourcePreview}.
  */
-interface IProps extends WithTranslation {
+export interface IProps extends WithTranslation {
 
     /**
      * The callback to invoke when the component is clicked. The id of the

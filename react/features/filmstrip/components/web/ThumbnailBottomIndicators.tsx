@@ -12,7 +12,7 @@ import DisplayName from '../../../display-name/components/web/DisplayName';
 
 import StatusIndicators from './StatusIndicators';
 
-interface IProps {
+export interface IProps {
 
     /**
      * Class name for indicators container.

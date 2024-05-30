@@ -36,7 +36,7 @@ const getComputedOuterHeight = (element: HTMLElement) => {
         + getFloatStyleProperty(computedStyle, 'margin-bottom');
 };
 
-interface IProps {
+export interface IProps {
 
     /**
      * ARIA attributes.

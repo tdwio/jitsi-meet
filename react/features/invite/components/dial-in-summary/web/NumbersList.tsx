@@ -31,7 +31,7 @@ interface INumbersMapping {
     [countryName: string]: Array<INormalizedNumber>;
 }
 
-interface IProps extends WithTranslation {
+export interface IProps extends WithTranslation {
 
     /**
      * Whether or not numbers should include links with the telephone protocol.

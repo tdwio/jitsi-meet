@@ -14,7 +14,7 @@ import JoinButton from './JoinButton.web';
  * The type of the React {@code Component} props of
  * {@link CalendarListContent}.
  */
-interface IProps {
+export interface IProps {
 
     /**
      * The calendar event list.

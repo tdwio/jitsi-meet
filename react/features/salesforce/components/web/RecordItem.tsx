@@ -7,7 +7,7 @@ import { RECORD_TYPE } from '../../constants';
 /**
  * The type of the React {@code Component} props of {@link RecordItem}.
  */
-interface IProps {
+export interface IProps {
 
     /**
      * The id of the record.

@@ -33,7 +33,7 @@ import ConferenceNavigationContainer
 const RootStack = createStackNavigator();
 
 
-interface IProps {
+export interface IProps {
 
     /**
      * Redux dispatch function.

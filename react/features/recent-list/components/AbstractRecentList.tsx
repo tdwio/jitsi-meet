@@ -12,7 +12,7 @@ import styles from './styles';
 /**
  * The type of the React {@code Component} props of {@link AbstractRecentList}.
  */
-interface IProps {
+export interface IProps {
 
     /**
      * The redux store's {@code dispatch} function.

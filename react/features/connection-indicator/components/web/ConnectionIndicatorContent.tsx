@@ -68,7 +68,7 @@ const QUALITY_TO_WIDTH = [
 /**
  * The type of the React {@code Component} props of {@link ConnectionIndicator}.
  */
-interface IProps extends AbstractProps, WithTranslation {
+export interface IProps extends AbstractProps, WithTranslation {
 
     /**
      * The audio SSRC of this client.
@@ -147,7 +147,7 @@ interface IProps extends AbstractProps, WithTranslation {
 /**
  * The type of the React {@code Component} state of {@link ConnectionIndicator}.
  */
-interface IState extends AbstractState {
+export interface IState extends AbstractState {
 
     autoHideTimeout?: number;
 

@@ -17,7 +17,7 @@ import AbstractMessageRecipient, {
 
 import styles from './styles';
 
-interface IProps extends AbstractProps {
+export interface IProps extends AbstractProps {
 
     /**
      * The Redux dispatch function.

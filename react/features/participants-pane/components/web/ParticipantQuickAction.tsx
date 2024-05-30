@@ -7,7 +7,7 @@ import { approveParticipantAudio, approveParticipantVideo } from '../../../av-mo
 import Button from '../../../base/ui/components/web/Button';
 import { QUICK_ACTION_BUTTON } from '../../constants';
 
-interface IProps {
+export interface IProps {
 
     /**
      * The translated ask unmute aria label.
