@@ -1,20 +1,32 @@
 {
-    "include": ["react/features/**/*.ts", "react/features/**/*.tsx", "./custom.d.ts", "./globals.native.d.ts"],
+    "include": [
+        "react/features/**/*.ts",
+        "react/features/**/*.tsx",
+        "./index.tsx",
+        "./custom.d.ts",
+        "./globals.native.d.ts"
+    ],
     "compilerOptions": {
+        "rootDir": ".",
         "allowSyntheticDefaultImports": true,
-        "target": "es2020",
+        "declaration": true,
+        "esModuleInterop": true,
         "jsx": "react-native",
         "lib": [ "es2020"],
-        "types": [ "react-native" ],
-        "skipLibCheck": true,
+        "module": "commonjs",
         "moduleResolution": "Node",
-        "strict": true,
         "noImplicitAny": true,
-        "strictPropertyInitialization": false,
+        "outDir": "dist",
         "resolveJsonModule": true,
+        "skipLibCheck": true,
+        "strict": true,
+        "strictPropertyInitialization": false,
+        "target": "es2020",
+        "types": [ "react-native", "@types/webrtc", "@types/w3c-web-hid" ],
         "moduleSuffixes": [".native", ".ios", ".android", ""]
     },
     "exclude": [
+        "dist",
         "node_modules",
         "react/features/always-on-top",
         "react/features/analytics/handlers/GoogleAnalyticsHandler.ts",

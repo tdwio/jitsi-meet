@@ -1,13 +1,16 @@
 {
     "include": ["react/features/**/*.ts", "react/features/**/*.tsx", "./custom.d.ts", "./globals.d.ts"],
     "compilerOptions": {
+        "rootDir": ".",
         "allowSyntheticDefaultImports": true,
-        "module": "es2020",
+        "declaration": true,
+        "module": "commonjs",
         "target": "es2020",
         "jsx": "react",
         "lib": [ "ES2020", "DOM" ],
         "skipLibCheck": true,
         "moduleResolution": "Node",
+        "outDir": "dist",
         "strict": true,
         "noImplicitAny": true,
         "strictPropertyInitialization": false,
@@ -15,6 +18,7 @@
         "moduleSuffixes": [".web", ""]
     },
     "exclude": [
+        "dist",
         "node_modules",
         "react/features/share-room",
         "**/mobile/*",
