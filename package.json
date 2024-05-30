@@ -5,7 +5,7 @@
   "private": true,
   "repository": {
     "type": "git",
-    "url": "git://github.com/jitsi/jitsi-meet"
+    "url": "git://github.com/tdwio/jitsi-react-native-sdk"
   },
   "keywords": [
     "jingle",
@@ -205,7 +205,8 @@
     "tsc-test:web": "tsc --project tsconfig.web.json --listFilesOnly | grep -v node_modules | grep native",
     "tsc-test:native": "tsc --project tsconfig.native.json --listFilesOnly | grep -v node_modules | grep web",
     "start": "make dev",
-    "build": "tsc --project tsconfig.native.json && tsc --project tsconfig.web.json"
+    "build": "sh ./scripts/build-react-native-sdk.sh",
+    "publish": "sh ./scripts/publish-react-native-sdk.sh"
   },
   "resolutions": {
     "@types/react": "17.0.14",

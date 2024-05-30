@@ -22,6 +22,7 @@ Pods/
 #
 build/
 dist/
+tmp/
 *.pbxuser
 !default.pbxuser
 *.mode1v3
