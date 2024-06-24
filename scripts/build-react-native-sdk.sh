@@ -13,13 +13,17 @@ echo "Installing original module..."
 npm i --prefix ./tmp @jitsi/react-native-sdk
 mv ./tmp/node_modules/@jitsi/react-native-sdk ./tmp/module
 
-echo "Copying files..."
+echo "Copying sources..."
 rm -rf ./tmp/node_modules ./tmp/package.json ./tmp/package-lock.json
 find ./tmp/module -name "*.ts" -type f -delete
 find ./tmp/module -name "*.tsx" -type f -delete
 rsync -am --ignore-existing ./dist/react/features ./tmp/module/react
 cp -r ./dist/index.d.ts ./tmp/module/index.d.ts
 cp -r ./dist/index.js ./tmp/module/index.js
+
+echo "Copying sounds..."
+rm -rf ./tmp/module/sounds
+cp -r ./sounds ./tmp/module/sounds
 
 echo "Cleaning up..."
 rm -rf ./dist
