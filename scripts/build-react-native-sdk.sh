@@ -21,9 +21,9 @@ rsync -am --ignore-existing ./dist/react/features ./tmp/module/react
 cp -r ./dist/index.d.ts ./tmp/module/index.d.ts
 cp -r ./dist/index.js ./tmp/module/index.js
 
-echo "Copying sounds..."
-rm -rf ./tmp/module/sounds
-cp -r ./sounds ./tmp/module/sounds
+# echo "Copying sounds..."
+# rm -rf ./tmp/module/sounds
+# cp -r ./sounds ./tmp/module/sounds
 
 echo "Cleaning up..."
 rm -rf ./dist
